@@ -1,0 +1,344 @@
+{
+  "scenario": "ordinary-HUD defensive investments; no simulation overrides",
+  "actions": [
+    {
+      "clock": "0:00",
+      "description": "Rite: Scrap Pickers"
+    },
+    {
+      "clock": "2:24",
+      "description": "Recruit unit-def:nightblade"
+    },
+    {
+      "clock": "2:27",
+      "description": "Recruit unit-def:jungle-stalker"
+    },
+    {
+      "clock": "2:30",
+      "description": "Recruit unit-def:sapper-drox"
+    },
+    {
+      "clock": "2:32",
+      "description": "Platoon 1: Defensive hold inside keep"
+    },
+    {
+      "clock": "2:34",
+      "description": "Platoon 2: Defensive hold inside keep"
+    },
+    {
+      "clock": "2:36",
+      "description": "Build ballista in slot 2"
+    },
+    {
+      "clock": "2:37",
+      "description": "Build arcane-barrier in slot 1"
+    },
+    {
+      "clock": "2:39",
+      "description": "Build ballista in slot 5"
+    },
+    {
+      "clock": "2:42",
+      "description": "Build caravan-post in slot 4"
+    },
+    {
+      "clock": "2:45",
+      "description": "Build caravan-post in slot 3"
+    },
+    {
+      "clock": "2:48",
+      "description": "Build caravan-post in slot 6"
+    },
+    {
+      "clock": "2:50",
+      "description": "Academy training unit:north:1"
+    },
+    {
+      "clock": "2:52",
+      "description": "Academy training unit:north:1"
+    },
+    {
+      "clock": "2:54",
+      "description": "Academy training unit:north:1"
+    },
+    {
+      "clock": "2:56",
+      "description": "Academy training unit:north:2"
+    },
+    {
+      "clock": "2:58",
+      "description": "Academy training unit:north:2"
+    },
+    {
+      "clock": "3:00",
+      "description": "Academy training unit:north:2"
+    },
+    {
+      "clock": "3:02",
+      "description": "Academy training unit:north:3"
+    },
+    {
+      "clock": "3:04",
+      "description": "Academy training unit:north:3"
+    },
+    {
+      "clock": "3:06",
+      "description": "Academy training unit:north:3"
+    },
+    {
+      "clock": "3:08",
+      "description": "Academy training unit:north:4"
+    },
+    {
+      "clock": "3:10",
+      "description": "Academy training unit:north:4"
+    },
+    {
+      "clock": "4:29",
+      "description": "Platoon 1: Defensive hold inside keep"
+    },
+    {
+      "clock": "4:31",
+      "description": "Platoon 2: Defensive hold inside keep"
+    },
+    {
+      "clock": "4:37",
+      "description": "Upgrade slot 2 to T2"
+    },
+    {
+      "clock": "4:44",
+      "description": "Upgrade slot 2 to T3"
+    },
+    {
+      "clock": "4:51",
+      "description": "Upgrade slot 1 to T2"
+    },
+    {
+      "clock": "4:58",
+      "description": "Upgrade slot 1 to T3"
+    },
+    {
+      "clock": "5:00",
+      "description": "Academy training unit:north:4"
+    },
+    {
+      "clock": "5:00",
+      "description": "Academy training unit:north:5"
+    },
+    {
+      "clock": "5:02",
+      "description": "Academy training unit:north:5"
+    },
+    {
+      "clock": "5:03",
+      "description": "Academy training unit:north:5"
+    },
+    {
+      "clock": "6:29",
+      "description": "Recruit unit-def:sniper-castella"
+    },
+    {
+      "clock": "6:32",
+      "description": "Platoon 1: Defensive hold inside keep"
+    },
+    {
+      "clock": "6:36",
+      "description": "Platoon 2: Defensive hold inside keep"
+    },
+    {
+      "clock": "6:44",
+      "description": "Upgrade slot 5 to T2"
+    },
+    {
+      "clock": "6:51",
+      "description": "Upgrade slot 5 to T3"
+    },
+    {
+      "clock": "6:59",
+      "description": "Upgrade slot 4 to T2"
+    },
+    {
+      "clock": "7:05",
+      "description": "Upgrade slot 4 to T3"
+    },
+    {
+      "clock": "7:14",
+      "description": "Upgrade slot 3 to T2"
+    },
+    {
+      "clock": "7:21",
+      "description": "Upgrade slot 3 to T3"
+    },
+    {
+      "clock": "7:29",
+      "description": "Upgrade slot 6 to T2"
+    },
+    {
+      "clock": "7:36",
+      "description": "Upgrade slot 6 to T3"
+    },
+    {
+      "clock": "7:38",
+      "description": "Academy training unit:north:6"
+    },
+    {
+      "clock": "7:40",
+      "description": "Academy training unit:north:6"
+    },
+    {
+      "clock": "7:42",
+      "description": "Academy training unit:north:6"
+    },
+    {
+      "clock": "7:44",
+      "description": "Academy training unit:north:7"
+    },
+    {
+      "clock": "7:46",
+      "description": "Academy training unit:north:7"
+    },
+    {
+      "clock": "7:48",
+      "description": "Academy training unit:north:7"
+    },
+    {
+      "clock": "7:50",
+      "description": "Academy training unit:north:8"
+    },
+    {
+      "clock": "7:52",
+      "description": "Academy training unit:north:8"
+    },
+    {
+      "clock": "7:54",
+      "description": "Academy training unit:north:8"
+    },
+    {
+      "clock": "7:55",
+      "description": "Academy training unit:north:9"
+    },
+    {
+      "clock": "7:57",
+      "description": "Academy training unit:north:9"
+    },
+    {
+      "clock": "8:29",
+      "description": "Platoon 1: Defensive hold inside keep"
+    },
+    {
+      "clock": "8:32",
+      "description": "Platoon 2: Defensive hold inside keep"
+    },
+    {
+      "clock": "8:34",
+      "description": "Academy training unit:north:9"
+    },
+    {
+      "clock": "10:09",
+      "description": "Rite: Merchant's Bargain"
+    },
+    {
+      "clock": "10:16",
+      "description": "Platoon 1: Defensive hold inside keep"
+    },
+    {
+      "clock": "10:17",
+      "description": "Platoon 2: Defensive hold inside keep"
+    },
+    {
+      "clock": "13:27",
+      "description": "Platoon 1: Defensive hold inside keep"
+    },
+    {
+      "clock": "13:29",
+      "description": "Platoon 2: Defensive hold inside keep"
+    }
+  ],
+  "checkpoints": [
+    {
+      "targetSeconds": 300,
+      "clock": "5:00",
+      "active": true,
+      "phase": "expansion",
+      "gold": "320",
+      "xp": "3000",
+      "ownCore": "4500",
+      "blessings": "Chosen: Scrap Pickers",
+      "cards": "3 in deck · 0 discarded",
+      "roster": "Sunder AegisP1 · L3 · fighter100%Tidecaller NamiP1 · L3 · tanker100%Frostcaller LyraP1 · L3 · mage100%Twinblade VexP1 · L3 · marksman100%Timekeeper NoraP1 · L1 · support100%NightbladeP2 · L1 · assassin100%Jungle StalkerP2 · L1 · assassin100%Sapper DroxP2 · L1 · siege100%",
+      "facilities": [
+        "1 Court · Arcane Barrier T3",
+        "2 Court · Ballista T3",
+        "3 Court · Caravan T1",
+        "4 Court · Caravan T1",
+        "5 Keep · Ballista T1",
+        "6 Keep · Caravan T1"
+      ]
+    },
+    {
+      "targetSeconds": 600,
+      "clock": "10:00",
+      "active": true,
+      "phase": "siege",
+      "gold": "4298",
+      "xp": "6004",
+      "ownCore": "4500",
+      "blessings": "Chosen: Scrap Pickers, Golden Interest",
+      "cards": "2 in deck · 0 discarded",
+      "roster": "Sunder AegisP1 · L3 · fighter100%Tidecaller NamiP1 · L3 · tanker100%Frostcaller LyraP1 · L3 · mage100%Twinblade VexP1 · L3 · marksman100%Timekeeper NoraP1 · L3 · support100%NightbladeP2 · L3 · assassin100%Jungle StalkerP2 · L3 · assassin100%Sapper DroxP2 · L3 · siege100%Sniper CastellaP2 · L3 · marksman100%",
+      "facilities": [
+        "1 Court · Arcane Barrier T3",
+        "2 Court · Ballista T3",
+        "3 Court · Caravan T3",
+        "4 Court · Caravan T3",
+        "5 Keep · Ballista T3",
+        "6 Keep · Caravan T3"
+      ]
+    },
+    {
+      "targetSeconds": 900,
+      "clock": "15:00",
+      "active": true,
+      "phase": "overtime",
+      "gold": "12750",
+      "xp": "9004",
+      "ownCore": "4500",
+      "blessings": "Chosen: Scrap Pickers, Golden Interest, Merchant's Bargain",
+      "cards": "1 in deck · 3 discarded",
+      "roster": "Sunder AegisP1 · L3 · fighter100%Tidecaller NamiP1 · L3 · tanker100%Frostcaller LyraP1 · L3 · mage100%Twinblade VexP1 · L3 · marksman100%Timekeeper NoraP1 · L3 · support100%NightbladeP2 · L3 · assassin100%Jungle StalkerP2 · L3 · assassin100%Sapper DroxP2 · L3 · siege100%Sniper CastellaP2 · L3 · marksman100%",
+      "facilities": [
+        "1 Court · Arcane Barrier T3",
+        "2 Court · Ballista T3",
+        "3 Court · Caravan T3",
+        "4 Court · Caravan T3",
+        "5 Keep · Ballista T3",
+        "6 Keep · Caravan T3"
+      ]
+    },
+    {
+      "targetSeconds": 1080,
+      "clock": "18:00",
+      "active": false,
+      "phase": "ended",
+      "gold": "18714",
+      "xp": "10800",
+      "ownCore": "4500",
+      "blessings": "Chosen: Scrap Pickers, Golden Interest, Merchant's Bargain",
+      "cards": "1 in deck · 6 discarded",
+      "roster": "Sunder AegisP1 · L3 · fighter88%Tidecaller NamiP1 · L3 · tanker100%Frostcaller LyraP1 · L3 · mage100%Twinblade VexP1 · L3 · marksman100%Timekeeper NoraP1 · L3 · support88%NightbladeP2 · L3 · assassin95%Jungle StalkerP2 · L3 · assassin100%Sapper DroxP2 · L3 · siege100%Sniper CastellaP2 · L3 · marksman100%",
+      "facilities": [
+        "1 Court · Arcane Barrier T3",
+        "2 Court · Ballista T3",
+        "3 Court · Caravan T3",
+        "4 Court · Caravan T3",
+        "5 Keep · Ballista T3",
+        "6 Keep · Caravan T3"
+      ]
+    }
+  ],
+  "lateScreenshotClock": "15:24",
+  "result": "Defeat · wall damage at 18:00. Choose Restart match to play again.",
+  "endTime": "18:00",
+  "reachedActive15": true,
+  "errors": []
+}

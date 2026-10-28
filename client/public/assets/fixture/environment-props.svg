@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="256" viewBox="0 0 512 256">
+  <defs>
+    <linearGradient id="leaf" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#86bc58"/><stop offset=".55" stop-color="#4e9149"/><stop offset="1" stop-color="#2e633e"/></linearGradient>
+    <linearGradient id="leafLight" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#b0d86a"/><stop offset="1" stop-color="#589b4c"/></linearGradient>
+    <linearGradient id="bark" x1="0" y1="0" x2="1" y2=".2"><stop stop-color="#79503a"/><stop offset=".5" stop-color="#b77945"/><stop offset="1" stop-color="#694334"/></linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d6c9a8"/><stop offset="1" stop-color="#95866d"/></linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c8dc76"/><stop offset="1" stop-color="#54844a"/></linearGradient>
+  </defs>
+
+  <!-- Jungle tree -->
+  <g transform="translate(0 0)" stroke="#493b32" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="65" cy="91" rx="34" ry="17" fill="#263d2f" opacity=".36" stroke="none"/>
+    <path d="M56 83 Q54 66 61 54 L72 53 Q77 68 72 85Z" fill="url(#bark)"/>
+    <path d="M62 69L54 59M70 66L78 57" fill="none" stroke="#684434" stroke-width="5"/>
+    <path d="M27 55Q22 42 34 34Q35 18 51 22Q62 8 75 22Q94 18 96 36Q108 46 98 60Q91 73 75 70Q62 81 47 70Q32 74 27 55Z" fill="url(#leaf)"/>
+    <path d="M35 43Q38 29 51 32Q59 19 69 31Q81 24 88 37Q98 40 91 51Q81 60 69 54Q56 66 44 56Q34 57 35 43Z" fill="url(#leafLight)" stroke-width="2.3"/>
+    <path d="M43 42Q48 32 56 37M66 34Q74 28 81 38M51 54Q57 45 64 50" fill="none" stroke="#d1e889" stroke-width="2" opacity=".78"/>
+    <circle cx="36" cy="52" r="7" fill="#3e7c44" stroke-width="2"/><circle cx="88" cy="54" r="8" fill="#377640" stroke-width="2"/>
+  </g>
+
+  <!-- Concealment bush -->
+  <g transform="translate(128 0)" stroke="#3c4933" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="64" cy="91" rx="42" ry="15" fill="#263d2f" opacity=".33" stroke="none"/>
+    <path d="M23 61Q18 49 29 42Q27 29 41 27Q48 15 61 23Q75 13 84 26Q100 25 100 40Q112 49 102 62Q99 75 83 72Q72 84 59 74Q44 82 36 70Q24 73 23 61Z" fill="url(#leaf)"/>
+    <circle cx="39" cy="48" r="16" fill="#68a94e"/><circle cx="59" cy="37" r="18" fill="url(#leafLight)"/><circle cx="81" cy="45" r="17" fill="#4d9148"/><circle cx="52" cy="61" r="16" fill="#3f8044"/><circle cx="77" cy="62" r="17" fill="#69a950"/>
+    <path d="M35 44Q40 33 48 37M59 34Q67 28 73 36M78 43Q85 37 90 45M48 58Q55 50 62 56M72 59Q80 52 86 60" fill="none" stroke="#c5e37a" stroke-width="2.5" opacity=".85"/>
+    <path d="M30 57Q35 67 44 67M88 65Q95 60 96 54" fill="none" stroke="#2f633c" stroke-width="3"/>
+  </g>
+
+  <!-- Fern -->
+  <g transform="translate(256 0)" stroke="#35543a" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="65" cy="91" rx="33" ry="12" fill="#263d2f" opacity=".3" stroke="none"/>
+    <path d="M64 83Q61 58 64 27M64 79Q48 57 39 37M65 77Q81 55 91 34" fill="none" stroke="#57954a" stroke-width="4"/>
+    <path d="M62 69Q50 66 45 57Q57 58 62 64M58 58Q46 54 43 45Q55 48 61 54M54 50Q44 43 43 35Q53 40 59 47M66 65Q77 63 83 53Q71 55 66 61M72 53Q82 49 86 40Q75 43 69 50M77 45Q86 39 88 31Q78 36 73 43M63 53Q55 40 57 29Q66 39 66 48M66 44Q74 32 71 23Q64 32 63 40" fill="#78ad53"/>
+    <path d="M62 69Q50 66 45 57M58 58Q46 54 43 45M54 50Q44 43 43 35M66 65Q77 63 83 53M72 53Q82 49 86 40M77 45Q86 39 88 31" fill="none" stroke="#c5db76" stroke-width="1.6"/>
+  </g>
+
+  <!-- Wildflower tuft -->
+  <g transform="translate(384 0)" stroke="#4d5539" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="65" cy="91" rx="30" ry="11" fill="#263d2f" opacity=".28" stroke="none"/>
+    <path d="M64 83Q61 67 48 50M65 82Q66 62 72 44M65 82Q74 67 89 58M62 81Q54 69 40 65" fill="none" stroke="#609448" stroke-width="3"/>
+    <path d="M59 72Q49 64 43 70Q52 76 61 76M69 68Q78 57 87 62Q81 71 68 74M63 63Q55 54 49 57Q55 65 63 67M71 78Q79 71 87 75Q80 81 70 82" fill="#86b657"/>
+    <g fill="#f3d76d" stroke="#735739" stroke-width="2"><circle cx="47" cy="47" r="8"/><circle cx="72" cy="40" r="8"/><circle cx="91" cy="55" r="7"/><circle cx="38" cy="62" r="6"/></g>
+    <g fill="#fff4c5" stroke="none"><circle cx="47" cy="47" r="3"/><circle cx="72" cy="40" r="3"/><circle cx="91" cy="55" r="2.5"/><circle cx="38" cy="62" r="2.2"/></g>
+  </g>
+
+  <!-- Short wooden fence -->
+  <g transform="translate(0 128)" stroke="#59402f" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="64" cy="87" rx="42" ry="11" fill="#3c342c" opacity=".27" stroke="none"/>
+    <path d="M28 47L100 66M28 59L100 78" fill="none" stroke="#8a5738" stroke-width="9"/>
+    <path d="M28 44L100 63M28 56L100 75" fill="none" stroke="#d29a5a" stroke-width="3"/>
+    <path d="M34 42L31 65M57 48L54 71M80 54L77 77M99 60L96 82" fill="none" stroke="#75472f" stroke-width="7"/>
+    <path d="M34 40L31 61M57 46L54 67M80 52L77 73M99 58L96 78" fill="none" stroke="#e0ad6b" stroke-width="2.4"/>
+    <path d="M26 43L32 40L37 43M91 59L98 56L103 59" fill="none" stroke="#d9a360" stroke-width="3"/>
+  </g>
+
+  <!-- Low stone fence -->
+  <g transform="translate(128 128)" stroke="#514b42" stroke-width="2.5" stroke-linejoin="round">
+    <ellipse cx="64" cy="87" rx="43" ry="11" fill="#34312d" opacity=".27" stroke="none"/>
+    <path d="M22 57L34 46L46 50L57 41L72 47L84 42L103 53L100 76L29 79Z" fill="url(#stone)"/>
+    <path d="M22 57L34 46L46 50L57 41L72 47L84 42L103 53" fill="none" stroke="#e3d7b8" stroke-width="4"/>
+    <path d="M42 49L40 62M68 48L66 65M88 49L86 68M30 66L50 68M58 66L78 68M82 70L100 68" fill="none" stroke="#776d5d" stroke-width="2"/>
+    <path d="M30 76L99 73" fill="none" stroke="#857964" stroke-width="3"/>
+    <path d="M48 48Q54 46 56 51M76 48Q82 45 84 50" fill="none" stroke="#6a8a4e" stroke-width="2"/>
+  </g>
+
+  <!-- Field grass -->
+  <g transform="translate(256 128)" stroke="#496b3d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="65" cy="90" rx="31" ry="10" fill="#3b4931" opacity=".24" stroke="none"/>
+    <path d="M64 84Q48 61 43 41Q61 55 66 78M64 84Q58 55 64 29Q75 54 68 80M67 84Q76 59 91 43Q86 68 70 84M61 84Q44 71 34 65Q49 67 64 79M69 84Q85 71 99 69Q88 81 71 87" fill="url(#grass)"/>
+    <path d="M58 65L46 47M65 60L64 35M73 67L87 48M56 77L39 68M75 79L94 72" fill="none" stroke="#d5e381" stroke-width="2"/>
+  </g>
+
+  <!-- Mossy rocks -->
+  <g transform="translate(384 128)" stroke="#57534a" stroke-width="2.5" stroke-linejoin="round">
+    <ellipse cx="65" cy="88" rx="39" ry="13" fill="#34312d" opacity=".27" stroke="none"/>
+    <path d="M24 72L28 57L42 49L56 53L63 66L56 80L37 83Z" fill="#9c9b83"/>
+    <path d="M48 71L55 48L72 39L88 47L94 65L84 79L62 81Z" fill="url(#stone)"/>
+    <path d="M78 74L84 61L97 58L107 66L104 78L90 82Z" fill="#777d68"/>
+    <path d="M30 58L42 52L51 56M59 49L72 43L83 49M86 63L95 61" fill="none" stroke="#d3d0ad" stroke-width="3"/>
+    <path d="M29 71Q36 65 45 70M61 69Q68 62 79 66M88 75Q96 69 103 73" fill="none" stroke="#66834e" stroke-width="3"/>
+  </g>
+</svg>

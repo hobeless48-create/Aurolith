@@ -1,0 +1,31 @@
+{
+  "scenario": "DEV-positioned encounters, real stepMatch emission and owner projection, actual Canvas minimap strokes",
+  "evidence": [
+    {
+      "owner": "north",
+      "emittedOwners": [
+        "player:north"
+      ],
+      "projectedCount": 1,
+      "event": {
+        "id": "outrider-alert:1:platoon:north:1:unit:south:1",
+        "tick": 1,
+        "col": 76,
+        "row": 40
+      },
+      "drawCount": 13,
+      "correctCoordinates": true,
+      "expiredWhilePaused": true
+    },
+    {
+      "owner": "south",
+      "emittedOwners": [
+        "player:south"
+      ],
+      "projectedCount": 0,
+      "eventCount": 0,
+      "drawCount": 0
+    }
+  ],
+  "errors": []
+}

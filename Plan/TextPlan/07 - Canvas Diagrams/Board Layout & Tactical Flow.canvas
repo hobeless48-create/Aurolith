@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "node-1",
+      "type": "text",
+      "text": "# 👑 Aurolith: Map & Layout Canvas\n\n- **Total Grid:** 150 (Cols) x 90 (Rows) Hex Tiles\n- **Player 1 Castle:** North Anchor (Top)\n- **Player 2 Castle:** South Anchor (Bottom)\n- **Flanks:** West Jungle & East Jungle",
+      "x": -400,
+      "y": -300,
+      "width": 340,
+      "height": 200,
+      "color": "1"
+    },
+    {
+      "id": "node-2",
+      "type": "text",
+      "text": "### 🌿 West Jungle Zone A (Left Flank)\n- **Dimensions:** 30 x 90 Hexes (c: 0–29)\n- **Mechanics:** 50% Canopy LoS Penalty, Creep Dens, 2:00 Tuskgod Elite Boss Arena.\n- **Choice:** Fair creep farming or stealth gank flank.",
+      "x": -400,
+      "y": -60,
+      "width": 340,
+      "height": 180,
+      "color": "2"
+    },
+    {
+      "id": "node-3",
+      "type": "text",
+      "text": "### ⚔️ Central Battlefield & King's Highway\n- **Dimensions:** 90 x 90 Hexes (c: 30–119)\n- **The King's Highway:** Single direct North-to-South dirt road (+10% Move Speed) connecting North & South Gates.\n- **Centerpiece:** 12:00 Ancient Emperor Altar (6,000 HP).\n- **Fortresses:** North Castle (P1) & South Castle (P2).",
+      "x": -30,
+      "y": -60,
+      "width": 360,
+      "height": 200,
+      "color": "3"
+    },
+    {
+      "id": "node-4",
+      "type": "text",
+      "text": "### 🌿 East Jungle Zone B (Right Flank)\n- **Dimensions:** 30 x 90 Hexes (c: 120–149)\n- **Mechanics:** 50% Canopy LoS, Creep Dens, 8:00 Stormwing Boss Pit.\n- **Choice:** Symmetric farming or disruption invasions.",
+      "x": 360,
+      "y": -60,
+      "width": 340,
+      "height": 180,
+      "color": "2"
+    },
+    {
+      "id": "node-5",
+      "type": "text",
+      "text": "### ⏱️ Timeline & Overtime Flow\n- **Prep Phase:** Untimed ~90s Trait Draft\n- **Opening (0-5m):** Eco & Scouting (Siege Locked)\n- **Expansion (5-10m):** Skirmishes & Siege Online\n- **Siege (10-15m):** Primary Wall Breaches\n- **Overtime (15-18m):** Eco Ramp & Free Scout\n- **18:00 Tie-Breaker:** Cumulative Wall Damage",
+      "x": -30,
+      "y": 160,
+      "width": 340,
+      "height": 220,
+      "color": "4"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-1",
+      "fromNode": "node-1",
+      "fromSide": "bottom",
+      "toNode": "node-2",
+      "toSide": "top"
+    },
+    {
+      "id": "edge-2",
+      "fromNode": "node-2",
+      "fromSide": "right",
+      "toNode": "node-3",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-3",
+      "fromNode": "node-3",
+      "fromSide": "right",
+      "toNode": "node-4",
+      "toSide": "left"
+    },
+    {
+      "id": "edge-4",
+      "fromNode": "node-3",
+      "fromSide": "bottom",
+      "toNode": "node-5",
+      "toSide": "top"
+    }
+  ]
+}

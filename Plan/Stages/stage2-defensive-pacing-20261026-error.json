@@ -1,0 +1,118 @@
+{
+  "pendingAction": "Build ballista in slot 6",
+  "error": "page.waitForFunction: Timeout 12000ms exceeded.",
+  "state": {
+    "clock": "12:14",
+    "toggle": "Pause O",
+    "gold": "5350",
+    "xp": "Unspent facility XP 6294",
+    "feedback": "Facility category is full",
+    "facility": "6 Keep · Empty",
+    "result": "",
+    "checkpoints": [
+      {
+        "targetSeconds": 300,
+        "clock": "5:00",
+        "active": true,
+        "phase": "expansion",
+        "gold": "2640",
+        "xp": "3000",
+        "ownCore": "4500",
+        "blessings": "Chosen: Scrap Pickers",
+        "cards": "3 in deck · 0 discarded",
+        "roster": "Sunder AegisP1 · L1 · fighter100%Tidecaller NamiP1 · L1 · tanker100%Frostcaller LyraP1 · L1 · mage100%Twinblade VexP1 · L1 · marksman100%Timekeeper NoraP1 · L1 · support100%NightbladeP2 · L1 · assassin100%Jungle StalkerP2 · L1 · assassin92%Sapper DroxP2 · L1 · siege92%",
+        "facilities": [
+          "1 Court · Empty",
+          "2 Court · Ballista T0 → T1",
+          "3 Court · Empty",
+          "4 Court · Empty",
+          "5 Keep · Empty",
+          "6 Keep · Empty"
+        ]
+      },
+      {
+        "targetSeconds": 600,
+        "clock": "10:00",
+        "active": true,
+        "phase": "siege",
+        "gold": "3826",
+        "xp": "6000",
+        "ownCore": "4500",
+        "blessings": "Chosen: Scrap Pickers, Golden Interest",
+        "cards": "2 in deck · 0 discarded",
+        "roster": "Sunder AegisP1 · L1 · fighter100%Tidecaller NamiP1 · L1 · tanker100%Frostcaller LyraP1 · L1 · mage100%Twinblade VexP1 · L1 · marksman100%Timekeeper NoraP1 · L1 · support100%NightbladeP2 · L1 · assassin100%Jungle StalkerP2 · L1 · assassin93%Sapper DroxP2 · L1 · siege93%",
+        "facilities": [
+          "1 Court · Arcane Barrier T3",
+          "2 Court · Ballista T3",
+          "3 Court · Empty",
+          "4 Court · Empty",
+          "5 Keep · Ballista T3",
+          "6 Keep · Empty"
+        ]
+      }
+    ]
+  },
+  "actions": [
+    {
+      "clock": "0:24",
+      "description": "Rite: Scrap Pickers"
+    },
+    {
+      "clock": "2:52",
+      "description": "Recruit unit-def:nightblade"
+    },
+    {
+      "clock": "3:26",
+      "description": "Recruit unit-def:jungle-stalker"
+    },
+    {
+      "clock": "3:52",
+      "description": "Recruit unit-def:sapper-drox"
+    },
+    {
+      "clock": "4:21",
+      "description": "Platoon 1: Defensive hold inside keep"
+    },
+    {
+      "clock": "4:57",
+      "description": "Platoon 2: Defensive hold inside keep"
+    },
+    {
+      "clock": "5:16",
+      "description": "Build ballista in slot 2"
+    },
+    {
+      "clock": "5:45",
+      "description": "Upgrade slot 2 to T2"
+    },
+    {
+      "clock": "6:21",
+      "description": "Upgrade slot 2 to T3"
+    },
+    {
+      "clock": "6:52",
+      "description": "Build arcane-barrier in slot 1"
+    },
+    {
+      "clock": "7:26",
+      "description": "Upgrade slot 1 to T2"
+    },
+    {
+      "clock": "8:00",
+      "description": "Upgrade slot 1 to T3"
+    },
+    {
+      "clock": "8:33",
+      "description": "Build ballista in slot 5"
+    },
+    {
+      "clock": "9:07",
+      "description": "Upgrade slot 5 to T2"
+    },
+    {
+      "clock": "9:38",
+      "description": "Upgrade slot 5 to T3"
+    }
+  ],
+  "errors": []
+}

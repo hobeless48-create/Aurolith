@@ -1,0 +1,2640 @@
+{
+  "Fighters": {
+    "class_num": "1",
+    "class_name": "Fighters",
+    "elapsed_sec": 0.75,
+    "usage": {
+      "input_tokens": 6539,
+      "output_tokens": 661
+    },
+    "answers": {
+      "u1_vanguardmarr_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.34,
+        "probabilities": {
+          "strongly_aligned": 0.55,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.44
+        }
+      },
+      "u2_ironclawgren_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.62,
+        "probabilities": {
+          "strongly_aligned": 0.24,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.75
+        }
+      },
+      "u3_stormdancerk_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.46,
+        "probabilities": {
+          "strongly_aligned": 0.35,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.64
+        }
+      },
+      "u4_warcrybeserk_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.68,
+        "probabilities": {
+          "strongly_aligned": 0.2,
+          "mostly_aligned": 0.78,
+          "misaligned": 0.02
+        }
+      },
+      "u5_sunderaegis_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.38,
+        "probabilities": {
+          "strongly_aligned": 0.59,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.4
+        }
+      },
+      "u6_duelistvalen_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.4,
+        "probabilities": {
+          "strongly_aligned": 0.39,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.6
+        }
+      },
+      "u7_pugilistoni_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.65,
+        "probabilities": {
+          "strongly_aligned": 0.23,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.76
+        }
+      },
+      "u8_gravewalkerc_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.48,
+        "probabilities": {
+          "strongly_aligned": 0.65,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.34
+        }
+      },
+      "u9_chainbreaker_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.65,
+        "probabilities": {
+          "strongly_aligned": 0.76,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.23
+        }
+      },
+      "u10_phoenixblade_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.55,
+        "probabilities": {
+          "strongly_aligned": 0.7,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.29
+        }
+      },
+      "class_silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.6,
+        "probabilities": {
+          "moderate_silhouette_diversity": 0.26,
+          "high_silhouette_diversity": 0.73,
+          "low_silhouette_diversity": 0.01
+        }
+      },
+      "class_power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 1.0,
+        "probabilities": {
+          "subdued_or_static": 0.0,
+          "adequate_power_exertion": 0.0,
+          "exemplary_power_exertion": 1.0
+        }
+      }
+    },
+    "units": [
+      {
+        "idx": "1",
+        "name": "Vanguard Marrow",
+        "title": "Blade Cyclone",
+        "tier": "T2",
+        "q_id": "u1_vanguardmarr_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.34,
+          "probabilities": {
+            "strongly_aligned": 0.55,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.44
+          }
+        }
+      },
+      {
+        "idx": "2",
+        "name": "Ironclaw Grendal",
+        "title": "Executioner",
+        "tier": "T3",
+        "q_id": "u2_ironclawgren_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.62,
+          "probabilities": {
+            "strongly_aligned": 0.24,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.75
+          }
+        }
+      },
+      {
+        "idx": "3",
+        "name": "Stormdancer Kael",
+        "title": "Tempest",
+        "tier": "T4",
+        "q_id": "u3_stormdancerk_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.46,
+          "probabilities": {
+            "strongly_aligned": 0.35,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.64
+          }
+        }
+      },
+      {
+        "idx": "4",
+        "name": "Warcry Beserka",
+        "title": "Frenzy",
+        "tier": "T2",
+        "q_id": "u4_warcrybeserk_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.68,
+          "probabilities": {
+            "strongly_aligned": 0.2,
+            "mostly_aligned": 0.78,
+            "misaligned": 0.02
+          }
+        }
+      },
+      {
+        "idx": "5",
+        "name": "Sunder Aegis",
+        "title": "Shieldbreaker",
+        "tier": "T1",
+        "q_id": "u5_sunderaegis_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.38,
+          "probabilities": {
+            "strongly_aligned": 0.59,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.4
+          }
+        }
+      },
+      {
+        "idx": "6",
+        "name": "Duelist Valen",
+        "title": "Rival's Mark",
+        "tier": "T3",
+        "q_id": "u6_duelistvalen_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.4,
+          "probabilities": {
+            "strongly_aligned": 0.39,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.6
+          }
+        }
+      },
+      {
+        "idx": "7",
+        "name": "Pugilist Oni",
+        "title": "Combo Count",
+        "tier": "T3",
+        "q_id": "u7_pugilistoni_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.65,
+          "probabilities": {
+            "strongly_aligned": 0.23,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.76
+          }
+        }
+      },
+      {
+        "idx": "8",
+        "name": "Gravewalker Corvin",
+        "title": "Soul Form",
+        "tier": "T4",
+        "q_id": "u8_gravewalkerc_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.48,
+          "probabilities": {
+            "strongly_aligned": 0.65,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.34
+          }
+        }
+      },
+      {
+        "idx": "9",
+        "name": "Chainbreaker Rhuk",
+        "title": "Iron Tether",
+        "tier": "T1",
+        "q_id": "u9_chainbreaker_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.65,
+          "probabilities": {
+            "strongly_aligned": 0.76,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.23
+          }
+        }
+      },
+      {
+        "idx": "10",
+        "name": "Phoenixblade Sera",
+        "title": "Phoenix Rotation",
+        "tier": "T5",
+        "q_id": "u10_phoenixblade_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.55,
+          "probabilities": {
+            "strongly_aligned": 0.7,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.29
+          }
+        }
+      }
+    ],
+    "class_eval": {
+      "silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.6,
+        "probabilities": {
+          "moderate_silhouette_diversity": 0.26,
+          "high_silhouette_diversity": 0.73,
+          "low_silhouette_diversity": 0.01
+        }
+      },
+      "power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 1.0,
+        "probabilities": {
+          "subdued_or_static": 0.0,
+          "adequate_power_exertion": 0.0,
+          "exemplary_power_exertion": 1.0
+        }
+      }
+    }
+  },
+  "Tankers": {
+    "class_num": "2",
+    "class_name": "Tankers",
+    "elapsed_sec": 0.97,
+    "usage": {
+      "input_tokens": 6201,
+      "output_tokens": 654
+    },
+    "answers": {
+      "u1_aegisbastion_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.45,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.63,
+          "strongly_aligned": 0.36
+        }
+      },
+      "u2_stoneheartgo_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.81,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.88,
+          "strongly_aligned": 0.11
+        }
+      },
+      "u3_tidecallerna_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.57,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.72,
+          "strongly_aligned": 0.27
+        }
+      },
+      "u4_thornbackbra_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.28,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.47,
+          "strongly_aligned": 0.52
+        }
+      },
+      "u5_bonecagemald_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.38,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.59,
+          "strongly_aligned": 0.4
+        }
+      },
+      "u6_bulwarkaldri_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.66,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.77,
+          "strongly_aligned": 0.22
+        }
+      },
+      "u7_frostwardymi_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.3,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.53,
+          "strongly_aligned": 0.46
+        }
+      },
+      "u8_gravitonolum_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.42,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.37,
+          "strongly_aligned": 0.62
+        }
+      },
+      "u9_voidshellkra_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.83,
+        "probabilities": {
+          "misaligned": 0.02,
+          "mostly_aligned": 0.89,
+          "strongly_aligned": 0.09
+        }
+      },
+      "u10_paladinluxor_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.39,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.59,
+          "strongly_aligned": 0.4
+        }
+      },
+      "class_silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.66,
+        "probabilities": {
+          "high_silhouette_diversity": 0.77,
+          "low_silhouette_diversity": 0.02,
+          "moderate_silhouette_diversity": 0.21
+        }
+      },
+      "class_power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 0.78,
+        "probabilities": {
+          "subdued_or_static": 0.02,
+          "adequate_power_exertion": 0.13,
+          "exemplary_power_exertion": 0.85
+        }
+      }
+    },
+    "units": [
+      {
+        "idx": "1",
+        "name": "Aegis Bastion",
+        "title": "Fortress",
+        "tier": "T3",
+        "q_id": "u1_aegisbastion_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.45,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.63,
+            "strongly_aligned": 0.36
+          }
+        }
+      },
+      {
+        "idx": "2",
+        "name": "Stoneheart Gol",
+        "title": "Earthbind",
+        "tier": "T2",
+        "q_id": "u2_stoneheartgo_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.81,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.88,
+            "strongly_aligned": 0.11
+          }
+        }
+      },
+      {
+        "idx": "3",
+        "name": "Tidecaller Nami",
+        "title": "Watery Grave",
+        "tier": "T1",
+        "q_id": "u3_tidecallerna_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.57,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.72,
+            "strongly_aligned": 0.27
+          }
+        }
+      },
+      {
+        "idx": "4",
+        "name": "Thornback Bramble",
+        "title": "Thorn Aura",
+        "tier": "T3",
+        "q_id": "u4_thornbackbra_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.28,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.47,
+            "strongly_aligned": 0.52
+          }
+        }
+      },
+      {
+        "idx": "5",
+        "name": "Bonecage Maldr",
+        "title": "Necrotic Link",
+        "tier": "T4",
+        "q_id": "u5_bonecagemald_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.38,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.59,
+            "strongly_aligned": 0.4
+          }
+        }
+      },
+      {
+        "idx": "6",
+        "name": "Bulwark Aldric",
+        "title": "Interceptor",
+        "tier": "T1",
+        "q_id": "u6_bulwarkaldri_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.66,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.77,
+            "strongly_aligned": 0.22
+          }
+        }
+      },
+      {
+        "idx": "7",
+        "name": "Frostward Ymir",
+        "title": "Glacial Aura",
+        "tier": "T4",
+        "q_id": "u7_frostwardymi_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.3,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.53,
+            "strongly_aligned": 0.46
+          }
+        }
+      },
+      {
+        "idx": "8",
+        "name": "Graviton Olum",
+        "title": "Black Hole",
+        "tier": "T5",
+        "q_id": "u8_gravitonolum_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.42,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.37,
+            "strongly_aligned": 0.62
+          }
+        }
+      },
+      {
+        "idx": "9",
+        "name": "Voidshell Krask",
+        "title": "Adaptive Plating",
+        "tier": "T2",
+        "q_id": "u9_voidshellkra_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.83,
+          "probabilities": {
+            "misaligned": 0.02,
+            "mostly_aligned": 0.89,
+            "strongly_aligned": 0.09
+          }
+        }
+      },
+      {
+        "idx": "10",
+        "name": "Paladin Luxor",
+        "title": "Divine Bulwark",
+        "tier": "T3",
+        "q_id": "u10_paladinluxor_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.39,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.59,
+            "strongly_aligned": 0.4
+          }
+        }
+      }
+    ],
+    "class_eval": {
+      "silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.66,
+        "probabilities": {
+          "high_silhouette_diversity": 0.77,
+          "low_silhouette_diversity": 0.02,
+          "moderate_silhouette_diversity": 0.21
+        }
+      },
+      "power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 0.78,
+        "probabilities": {
+          "subdued_or_static": 0.02,
+          "adequate_power_exertion": 0.13,
+          "exemplary_power_exertion": 0.85
+        }
+      }
+    }
+  },
+  "Mages": {
+    "class_num": "3",
+    "class_name": "Mages",
+    "elapsed_sec": 0.95,
+    "usage": {
+      "input_tokens": 6956,
+      "output_tokens": 668
+    },
+    "answers": {
+      "u1_astralweaver_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.41,
+        "probabilities": {
+          "mostly_aligned": 0.39,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.6
+        }
+      },
+      "u2_frostcallerl_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.61,
+        "probabilities": {
+          "mostly_aligned": 0.25,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.74
+        }
+      },
+      "u3_pyromancerci_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.34,
+        "probabilities": {
+          "mostly_aligned": 0.43,
+          "strongly_aligned": 0.56,
+          "misaligned": 0.01
+        }
+      },
+      "u4_stormcallerz_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.61,
+        "probabilities": {
+          "mostly_aligned": 0.25,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.74
+        }
+      },
+      "u5_voidmawdrenn_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.65,
+        "probabilities": {
+          "mostly_aligned": 0.22,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.77
+        }
+      },
+      "u6_timewarpelow_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.41,
+        "probabilities": {
+          "mostly_aligned": 0.38,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.61
+        }
+      },
+      "u7_hexkeepermir_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.63,
+        "probabilities": {
+          "mostly_aligned": 0.24,
+          "strongly_aligned": 0.75,
+          "misaligned": 0.01
+        }
+      },
+      "u8_sylphweavera_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.54,
+        "probabilities": {
+          "mostly_aligned": 0.3,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.69
+        }
+      },
+      "u9_venomancersl_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.66,
+        "probabilities": {
+          "mostly_aligned": 0.22,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.77
+        }
+      },
+      "u10_echosageverm_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.28,
+        "probabilities": {
+          "mostly_aligned": 0.48,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.51
+        }
+      },
+      "class_silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.9,
+        "probabilities": {
+          "high_silhouette_diversity": 0.93,
+          "low_silhouette_diversity": 0.0,
+          "moderate_silhouette_diversity": 0.07
+        }
+      },
+      "class_power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 1.0,
+        "probabilities": {
+          "adequate_power_exertion": 0.0,
+          "exemplary_power_exertion": 1.0,
+          "subdued_or_static": 0.0
+        }
+      }
+    },
+    "units": [
+      {
+        "idx": "1",
+        "name": "Astralweaver Orin",
+        "title": "Starfall",
+        "tier": "T4",
+        "q_id": "u1_astralweaver_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.41,
+          "probabilities": {
+            "mostly_aligned": 0.39,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.6
+          }
+        }
+      },
+      {
+        "idx": "2",
+        "name": "Frostcaller Lyra",
+        "title": "Crystal Nova",
+        "tier": "T1",
+        "q_id": "u2_frostcallerl_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.61,
+          "probabilities": {
+            "mostly_aligned": 0.25,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.74
+          }
+        }
+      },
+      {
+        "idx": "3",
+        "name": "Pyromancer Cinder",
+        "title": "Inferno Field",
+        "tier": "T2",
+        "q_id": "u3_pyromancerci_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.34,
+          "probabilities": {
+            "mostly_aligned": 0.43,
+            "strongly_aligned": 0.56,
+            "misaligned": 0.01
+          }
+        }
+      },
+      {
+        "idx": "4",
+        "name": "Stormcaller Zeph",
+        "title": "Chain Lightning",
+        "tier": "T3",
+        "q_id": "u4_stormcallerz_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.61,
+          "probabilities": {
+            "mostly_aligned": 0.25,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.74
+          }
+        }
+      },
+      {
+        "idx": "5",
+        "name": "Voidmaw Drenn",
+        "title": "Reality Rift",
+        "tier": "T5",
+        "q_id": "u5_voidmawdrenn_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.65,
+          "probabilities": {
+            "mostly_aligned": 0.22,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.77
+          }
+        }
+      },
+      {
+        "idx": "6",
+        "name": "Timewarp Elowen",
+        "title": "Chrono Lock",
+        "tier": "T4",
+        "q_id": "u6_timewarpelow_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.41,
+          "probabilities": {
+            "mostly_aligned": 0.38,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.61
+          }
+        }
+      },
+      {
+        "idx": "7",
+        "name": "Hexkeeper Mira",
+        "title": "Hex Curse",
+        "tier": "T2",
+        "q_id": "u7_hexkeepermir_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.63,
+          "probabilities": {
+            "mostly_aligned": 0.24,
+            "strongly_aligned": 0.75,
+            "misaligned": 0.01
+          }
+        }
+      },
+      {
+        "idx": "8",
+        "name": "Sylphweaver Auriel",
+        "title": "Arcane Gust",
+        "tier": "T3",
+        "q_id": "u8_sylphweavera_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.54,
+          "probabilities": {
+            "mostly_aligned": 0.3,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.69
+          }
+        }
+      },
+      {
+        "idx": "9",
+        "name": "Venomancer Slyth",
+        "title": "Poison Cloud",
+        "tier": "T1",
+        "q_id": "u9_venomancersl_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.66,
+          "probabilities": {
+            "mostly_aligned": 0.22,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.77
+          }
+        }
+      },
+      {
+        "idx": "10",
+        "name": "Echo Sage Vermos",
+        "title": "Resonance",
+        "tier": "T5",
+        "q_id": "u10_echosageverm_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.28,
+          "probabilities": {
+            "mostly_aligned": 0.48,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.51
+          }
+        }
+      }
+    ],
+    "class_eval": {
+      "silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.9,
+        "probabilities": {
+          "high_silhouette_diversity": 0.93,
+          "low_silhouette_diversity": 0.0,
+          "moderate_silhouette_diversity": 0.07
+        }
+      },
+      "power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 1.0,
+        "probabilities": {
+          "adequate_power_exertion": 0.0,
+          "exemplary_power_exertion": 1.0,
+          "subdued_or_static": 0.0
+        }
+      }
+    }
+  },
+  "Marksmen": {
+    "class_num": "4",
+    "class_name": "Marksmen",
+    "elapsed_sec": 0.79,
+    "usage": {
+      "input_tokens": 6574,
+      "output_tokens": 663
+    },
+    "answers": {
+      "u1_hawkeyevale_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.58,
+        "probabilities": {
+          "mostly_aligned": 0.72,
+          "misaligned": 0.0,
+          "strongly_aligned": 0.28
+        }
+      },
+      "u2_gunslingerwr_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.8,
+        "probabilities": {
+          "mostly_aligned": 0.13,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.86
+        }
+      },
+      "u3_snipercastel_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.39,
+        "probabilities": {
+          "mostly_aligned": 0.4,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.59
+        }
+      },
+      "u4_twinbladevex_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.49,
+        "probabilities": {
+          "mostly_aligned": 0.32,
+          "misaligned": 0.02,
+          "strongly_aligned": 0.66
+        }
+      },
+      "u5_phantomdartn_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.46,
+        "probabilities": {
+          "mostly_aligned": 0.64,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.35
+        }
+      },
+      "u6_gunmagepetra_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.51,
+        "probabilities": {
+          "mostly_aligned": 0.67,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.32
+        }
+      },
+      "u7_longshotbren_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.27,
+        "probabilities": {
+          "mostly_aligned": 0.52,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.47
+        }
+      },
+      "u8_stormriderji_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.27,
+        "probabilities": {
+          "mostly_aligned": 0.51,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.48
+        }
+      },
+      "u9_eclipsediri_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.25,
+        "probabilities": {
+          "mostly_aligned": 0.5,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.49
+        }
+      },
+      "u10_ballistagrun_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.3,
+        "probabilities": {
+          "mostly_aligned": 0.46,
+          "misaligned": 0.01,
+          "strongly_aligned": 0.53
+        }
+      },
+      "class_silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.9,
+        "probabilities": {
+          "moderate_silhouette_diversity": 0.07,
+          "high_silhouette_diversity": 0.93,
+          "low_silhouette_diversity": 0.0
+        }
+      },
+      "class_power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 0.99,
+        "probabilities": {
+          "exemplary_power_exertion": 0.99,
+          "subdued_or_static": 0.0,
+          "adequate_power_exertion": 0.01
+        }
+      }
+    },
+    "units": [
+      {
+        "idx": "1",
+        "name": "Hawkeye Vale",
+        "title": "Marked Prey",
+        "tier": "T2",
+        "q_id": "u1_hawkeyevale_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.58,
+          "probabilities": {
+            "mostly_aligned": 0.72,
+            "misaligned": 0.0,
+            "strongly_aligned": 0.28
+          }
+        }
+      },
+      {
+        "idx": "2",
+        "name": "Gunslinger Wren",
+        "title": "Fan the Hammer",
+        "tier": "T3",
+        "q_id": "u2_gunslingerwr_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.8,
+          "probabilities": {
+            "mostly_aligned": 0.13,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.86
+          }
+        }
+      },
+      {
+        "idx": "3",
+        "name": "Sniper Castella",
+        "title": "Deadeye",
+        "tier": "T4",
+        "q_id": "u3_snipercastel_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.39,
+          "probabilities": {
+            "mostly_aligned": 0.4,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.59
+          }
+        }
+      },
+      {
+        "idx": "4",
+        "name": "Twinblade Vex",
+        "title": "Ricochet",
+        "tier": "T1",
+        "q_id": "u4_twinbladevex_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.49,
+          "probabilities": {
+            "mostly_aligned": 0.32,
+            "misaligned": 0.02,
+            "strongly_aligned": 0.66
+          }
+        }
+      },
+      {
+        "idx": "5",
+        "name": "Phantom Dart Nyx",
+        "title": "Phase Shift",
+        "tier": "T3",
+        "q_id": "u5_phantomdartn_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.46,
+          "probabilities": {
+            "mostly_aligned": 0.64,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.35
+          }
+        }
+      },
+      {
+        "idx": "6",
+        "name": "Gunmage Petra",
+        "title": "Hex Rounds",
+        "tier": "T2",
+        "q_id": "u6_gunmagepetra_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.51,
+          "probabilities": {
+            "mostly_aligned": 0.67,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.32
+          }
+        }
+      },
+      {
+        "idx": "7",
+        "name": "Longshot Bren",
+        "title": "Piercing Bolt",
+        "tier": "T1",
+        "q_id": "u7_longshotbren_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.27,
+          "probabilities": {
+            "mostly_aligned": 0.52,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.47
+          }
+        }
+      },
+      {
+        "idx": "8",
+        "name": "Stormrider Jinx",
+        "title": "Rapidfire Rocket",
+        "tier": "T4",
+        "q_id": "u8_stormriderji_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.27,
+          "probabilities": {
+            "mostly_aligned": 0.51,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.48
+          }
+        }
+      },
+      {
+        "idx": "9",
+        "name": "Eclipsed Iri",
+        "title": "Moonlight Shot",
+        "tier": "T5",
+        "q_id": "u9_eclipsediri_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.25,
+          "probabilities": {
+            "mostly_aligned": 0.5,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.49
+          }
+        }
+      },
+      {
+        "idx": "10",
+        "name": "Ballista Grun",
+        "title": "Siege Stance",
+        "tier": "T3",
+        "q_id": "u10_ballistagrun_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.3,
+          "probabilities": {
+            "mostly_aligned": 0.46,
+            "misaligned": 0.01,
+            "strongly_aligned": 0.53
+          }
+        }
+      }
+    ],
+    "class_eval": {
+      "silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.9,
+        "probabilities": {
+          "moderate_silhouette_diversity": 0.07,
+          "high_silhouette_diversity": 0.93,
+          "low_silhouette_diversity": 0.0
+        }
+      },
+      "power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 0.99,
+        "probabilities": {
+          "exemplary_power_exertion": 0.99,
+          "subdued_or_static": 0.0,
+          "adequate_power_exertion": 0.01
+        }
+      }
+    }
+  },
+  "Supports": {
+    "class_num": "5",
+    "class_name": "Supports",
+    "elapsed_sec": 0.78,
+    "usage": {
+      "input_tokens": 7154,
+      "output_tokens": 665
+    },
+    "answers": {
+      "u1_seraphangelu_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.53,
+        "probabilities": {
+          "strongly_aligned": 0.6799999999999999,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.31
+        }
+      },
+      "u2_oraclevessa_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.56,
+        "probabilities": {
+          "strongly_aligned": 0.29,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.7
+        }
+      },
+      "u3_battlechante_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.61,
+        "probabilities": {
+          "strongly_aligned": 0.74,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.25
+        }
+      },
+      "u4_timekeeperno_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.56,
+        "probabilities": {
+          "strongly_aligned": 0.71,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.28
+        }
+      },
+      "u5_bardofechoes_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.52,
+        "probabilities": {
+          "strongly_aligned": 0.68,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.31
+        }
+      },
+      "u6_penitentluci_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.9,
+        "probabilities": {
+          "strongly_aligned": 0.93,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.06
+        }
+      },
+      "u7_wardenofoath_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.85,
+        "probabilities": {
+          "strongly_aligned": 0.9,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.09
+        }
+      },
+      "u8_pixietrickst_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.77,
+        "probabilities": {
+          "strongly_aligned": 0.84,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.15
+        }
+      },
+      "u9_bannerlordca_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.26,
+        "probabilities": {
+          "strongly_aligned": 0.49,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.5
+        }
+      },
+      "u10_nyxoraclekir_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.57,
+        "probabilities": {
+          "strongly_aligned": 0.72,
+          "misaligned": 0.0,
+          "mostly_aligned": 0.28
+        }
+      },
+      "class_silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.93,
+        "probabilities": {
+          "high_silhouette_diversity": 0.95,
+          "low_silhouette_diversity": 0.0,
+          "moderate_silhouette_diversity": 0.05
+        }
+      },
+      "class_power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 0.98,
+        "probabilities": {
+          "subdued_or_static": 0.0,
+          "exemplary_power_exertion": 0.99,
+          "adequate_power_exertion": 0.01
+        }
+      }
+    },
+    "units": [
+      {
+        "idx": "1",
+        "name": "Seraph Angelus",
+        "title": "Healing Light",
+        "tier": "T2",
+        "q_id": "u1_seraphangelu_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.53,
+          "probabilities": {
+            "strongly_aligned": 0.6799999999999999,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.31
+          }
+        }
+      },
+      {
+        "idx": "2",
+        "name": "Oracle Vessa",
+        "title": "Foresight",
+        "tier": "T4",
+        "q_id": "u2_oraclevessa_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.56,
+          "probabilities": {
+            "strongly_aligned": 0.29,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.7
+          }
+        }
+      },
+      {
+        "idx": "3",
+        "name": "Battlechanter Rory",
+        "title": "War Chant",
+        "tier": "T3",
+        "q_id": "u3_battlechante_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.61,
+          "probabilities": {
+            "strongly_aligned": 0.74,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.25
+          }
+        }
+      },
+      {
+        "idx": "4",
+        "name": "Timekeeper Nora",
+        "title": "Haste",
+        "tier": "T1",
+        "q_id": "u4_timekeeperno_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.56,
+          "probabilities": {
+            "strongly_aligned": 0.71,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.28
+          }
+        }
+      },
+      {
+        "idx": "5",
+        "name": "Bard of Echoes Lim",
+        "title": "Resonance Note",
+        "tier": "T5",
+        "q_id": "u5_bardofechoes_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.52,
+          "probabilities": {
+            "strongly_aligned": 0.68,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.31
+          }
+        }
+      },
+      {
+        "idx": "6",
+        "name": "Penitent Lucian",
+        "title": "Sacrificial Transfusion",
+        "tier": "T2",
+        "q_id": "u6_penitentluci_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.9,
+          "probabilities": {
+            "strongly_aligned": 0.93,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.06
+          }
+        }
+      },
+      {
+        "idx": "7",
+        "name": "Warden of Oath Galen",
+        "title": "Oathbind",
+        "tier": "T3",
+        "q_id": "u7_wardenofoath_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.85,
+          "probabilities": {
+            "strongly_aligned": 0.9,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.09
+          }
+        }
+      },
+      {
+        "idx": "8",
+        "name": "Pixie Trickster Fae",
+        "title": "Pixie Dust",
+        "tier": "T2",
+        "q_id": "u8_pixietrickst_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.77,
+          "probabilities": {
+            "strongly_aligned": 0.84,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.15
+          }
+        }
+      },
+      {
+        "idx": "9",
+        "name": "Bannerlord Cassius",
+        "title": "Standard of Gilded",
+        "tier": "T4",
+        "q_id": "u9_bannerlordca_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.26,
+          "probabilities": {
+            "strongly_aligned": 0.49,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.5
+          }
+        }
+      },
+      {
+        "idx": "10",
+        "name": "Nyx Oracle Kira",
+        "title": "Silence Field",
+        "tier": "T2",
+        "q_id": "u10_nyxoraclekir_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.57,
+          "probabilities": {
+            "strongly_aligned": 0.72,
+            "misaligned": 0.0,
+            "mostly_aligned": 0.28
+          }
+        }
+      }
+    ],
+    "class_eval": {
+      "silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.93,
+        "probabilities": {
+          "high_silhouette_diversity": 0.95,
+          "low_silhouette_diversity": 0.0,
+          "moderate_silhouette_diversity": 0.05
+        }
+      },
+      "power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 0.98,
+        "probabilities": {
+          "subdued_or_static": 0.0,
+          "exemplary_power_exertion": 0.99,
+          "adequate_power_exertion": 0.01
+        }
+      }
+    }
+  },
+  "Siege": {
+    "class_num": "6",
+    "class_name": "Siege",
+    "elapsed_sec": 0.65,
+    "usage": {
+      "input_tokens": 6772,
+      "output_tokens": 661
+    },
+    "answers": {
+      "u1_titanmortarg_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.59,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.27,
+          "strongly_aligned": 0.72
+        }
+      },
+      "u2_rammasterkod_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.27,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.48,
+          "strongly_aligned": 0.51
+        }
+      },
+      "u3_catapultweyr_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.31,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.45,
+          "strongly_aligned": 0.54
+        }
+      },
+      "u4_sapperdrox_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.33,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.55,
+          "strongly_aligned": 0.44
+        }
+      },
+      "u5_cannoncerbri_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.31,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.54,
+          "strongly_aligned": 0.45
+        }
+      },
+      "u6_trebucheteld_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.38,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.59,
+          "strongly_aligned": 0.4
+        }
+      },
+      "u7_breacherkrag_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.55,
+        "probabilities": {
+          "misaligned": 0.02,
+          "mostly_aligned": 0.71,
+          "strongly_aligned": 0.27
+        }
+      },
+      "u8_ballistavul_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.75,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.16,
+          "strongly_aligned": 0.83
+        }
+      },
+      "u9_blastenginer_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.81,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.12,
+          "strongly_aligned": 0.87
+        }
+      },
+      "u10_colossusobr_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.5,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.32,
+          "strongly_aligned": 0.67
+        }
+      },
+      "class_silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.91,
+        "probabilities": {
+          "low_silhouette_diversity": 0.0,
+          "high_silhouette_diversity": 0.94,
+          "moderate_silhouette_diversity": 0.06
+        }
+      },
+      "class_power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 0.98,
+        "probabilities": {
+          "exemplary_power_exertion": 0.99,
+          "adequate_power_exertion": 0.01,
+          "subdued_or_static": 0.0
+        }
+      }
+    },
+    "units": [
+      {
+        "idx": "1",
+        "name": "Titan Mortar Gus",
+        "title": "Bombardment",
+        "tier": "T4",
+        "q_id": "u1_titanmortarg_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.59,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.27,
+            "strongly_aligned": 0.72
+          }
+        }
+      },
+      {
+        "idx": "2",
+        "name": "Rammaster Kodo",
+        "title": "Battering Ram",
+        "tier": "T2",
+        "q_id": "u2_rammasterkod_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.27,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.48,
+            "strongly_aligned": 0.51
+          }
+        }
+      },
+      {
+        "idx": "3",
+        "name": "Catapult Weyr",
+        "title": "Siege Toss",
+        "tier": "T3",
+        "q_id": "u3_catapultweyr_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.31,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.45,
+            "strongly_aligned": 0.54
+          }
+        }
+      },
+      {
+        "idx": "4",
+        "name": "Sapper Drox",
+        "title": "Demolition Charge",
+        "tier": "T1",
+        "q_id": "u4_sapperdrox_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.33,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.55,
+            "strongly_aligned": 0.44
+          }
+        }
+      },
+      {
+        "idx": "5",
+        "name": "Cannoncer Brik",
+        "title": "Cannonball",
+        "tier": "T3",
+        "q_id": "u5_cannoncerbri_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.31,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.54,
+            "strongly_aligned": 0.45
+          }
+        }
+      },
+      {
+        "idx": "6",
+        "name": "Trebuchet Elder Gorm",
+        "title": "Cataclysm",
+        "tier": "T5",
+        "q_id": "u6_trebucheteld_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.38,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.59,
+            "strongly_aligned": 0.4
+          }
+        }
+      },
+      {
+        "idx": "7",
+        "name": "Breacher Krag",
+        "title": "Melt Wall",
+        "tier": "T2",
+        "q_id": "u7_breacherkrag_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.55,
+          "probabilities": {
+            "misaligned": 0.02,
+            "mostly_aligned": 0.71,
+            "strongly_aligned": 0.27
+          }
+        }
+      },
+      {
+        "idx": "8",
+        "name": "Ballista Vul",
+        "title": "Bolt Volley",
+        "tier": "T1",
+        "q_id": "u8_ballistavul_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.75,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.16,
+            "strongly_aligned": 0.83
+          }
+        }
+      },
+      {
+        "idx": "9",
+        "name": "Blastengine Rik",
+        "title": "Rocket Barrage",
+        "tier": "T4",
+        "q_id": "u9_blastenginer_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.81,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.12,
+            "strongly_aligned": 0.87
+          }
+        }
+      },
+      {
+        "idx": "10",
+        "name": "Colossus Obr",
+        "title": "Mega Slam",
+        "tier": "T5",
+        "q_id": "u10_colossusobr_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.5,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.32,
+            "strongly_aligned": 0.67
+          }
+        }
+      }
+    ],
+    "class_eval": {
+      "silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.91,
+        "probabilities": {
+          "low_silhouette_diversity": 0.0,
+          "high_silhouette_diversity": 0.94,
+          "moderate_silhouette_diversity": 0.06
+        }
+      },
+      "power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 0.98,
+        "probabilities": {
+          "exemplary_power_exertion": 0.99,
+          "adequate_power_exertion": 0.01,
+          "subdued_or_static": 0.0
+        }
+      }
+    }
+  },
+  "Artisans": {
+    "class_num": "7",
+    "class_name": "Artisans",
+    "elapsed_sec": 0.93,
+    "usage": {
+      "input_tokens": 7211,
+      "output_tokens": 656
+    },
+    "answers": {
+      "u1_guildforeman_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.8,
+        "probabilities": {
+          "strongly_aligned": 0.13,
+          "misaligned": 0.0,
+          "mostly_aligned": 0.87
+        }
+      },
+      "u2_architectven_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.58,
+        "probabilities": {
+          "strongly_aligned": 0.27,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.72
+        }
+      },
+      "u3_stonewrightm_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.5,
+        "probabilities": {
+          "strongly_aligned": 0.67,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.32
+        }
+      },
+      "u4_quartermaste_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.86,
+        "probabilities": {
+          "strongly_aligned": 0.08,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.91
+        }
+      },
+      "u5_masterenchan_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.41,
+        "probabilities": {
+          "strongly_aligned": 0.39,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.6
+        }
+      },
+      "u6_civilenginee_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.76,
+        "probabilities": {
+          "strongly_aligned": 0.85,
+          "misaligned": 0.0,
+          "mostly_aligned": 0.15
+        }
+      },
+      "u7_lumberjackbo_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.46,
+        "probabilities": {
+          "strongly_aligned": 0.35,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.64
+        }
+      },
+      "u8_trapsmithver_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.26,
+        "probabilities": {
+          "strongly_aligned": 0.49,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.5
+        }
+      },
+      "u9_goldsmithaur_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.25,
+        "probabilities": {
+          "strongly_aligned": 0.5,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.49
+        }
+      },
+      "u10_salvagerrook_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.69,
+        "probabilities": {
+          "strongly_aligned": 0.2,
+          "misaligned": 0.01,
+          "mostly_aligned": 0.79
+        }
+      },
+      "class_silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.94,
+        "probabilities": {
+          "high_silhouette_diversity": 0.96,
+          "low_silhouette_diversity": 0.0,
+          "moderate_silhouette_diversity": 0.04
+        }
+      },
+      "class_power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 0.39,
+        "probabilities": {
+          "subdued_or_static": 0.03,
+          "exemplary_power_exertion": 0.59,
+          "adequate_power_exertion": 0.38
+        }
+      }
+    },
+    "units": [
+      {
+        "idx": "1",
+        "name": "Guild Foreman",
+        "title": "Site Runner",
+        "tier": "T2",
+        "q_id": "u1_guildforeman_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.8,
+          "probabilities": {
+            "strongly_aligned": 0.13,
+            "misaligned": 0.0,
+            "mostly_aligned": 0.87
+          }
+        }
+      },
+      {
+        "idx": "2",
+        "name": "Architect Venn",
+        "title": "Blueprints",
+        "tier": "T3",
+        "q_id": "u2_architectven_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.58,
+          "probabilities": {
+            "strongly_aligned": 0.27,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.72
+          }
+        }
+      },
+      {
+        "idx": "3",
+        "name": "Stonewright Marble",
+        "title": "Wall Mender",
+        "tier": "T3",
+        "q_id": "u3_stonewrightm_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.5,
+          "probabilities": {
+            "strongly_aligned": 0.67,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.32
+          }
+        }
+      },
+      {
+        "idx": "4",
+        "name": "Quartermaster Sable",
+        "title": "Rationeering",
+        "tier": "T3",
+        "q_id": "u4_quartermaste_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.86,
+          "probabilities": {
+            "strongly_aligned": 0.08,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.91
+          }
+        }
+      },
+      {
+        "idx": "5",
+        "name": "Master Enchanter Odette",
+        "title": "Gilding Touch",
+        "tier": "T4",
+        "q_id": "u5_masterenchan_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.41,
+          "probabilities": {
+            "strongly_aligned": 0.39,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.6
+          }
+        }
+      },
+      {
+        "idx": "6",
+        "name": "Civil Engineer Markus",
+        "title": "Roadbuilder",
+        "tier": "T4",
+        "q_id": "u6_civilenginee_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.76,
+          "probabilities": {
+            "strongly_aligned": 0.85,
+            "misaligned": 0.0,
+            "mostly_aligned": 0.15
+          }
+        }
+      },
+      {
+        "idx": "7",
+        "name": "Lumberjack Bodhi",
+        "title": "Timberline",
+        "tier": "T2",
+        "q_id": "u7_lumberjackbo_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.46,
+          "probabilities": {
+            "strongly_aligned": 0.35,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.64
+          }
+        }
+      },
+      {
+        "idx": "8",
+        "name": "Trapsmith Vern",
+        "title": "Emplacement",
+        "tier": "T2",
+        "q_id": "u8_trapsmithver_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.26,
+          "probabilities": {
+            "strongly_aligned": 0.49,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.5
+          }
+        }
+      },
+      {
+        "idx": "9",
+        "name": "Goldsmith Aurelia",
+        "title": "Mint",
+        "tier": "T2",
+        "q_id": "u9_goldsmithaur_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.25,
+          "probabilities": {
+            "strongly_aligned": 0.5,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.49
+          }
+        }
+      },
+      {
+        "idx": "10",
+        "name": "Salvager Rook",
+        "title": "Scrapwright",
+        "tier": "T1",
+        "q_id": "u10_salvagerrook_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.69,
+          "probabilities": {
+            "strongly_aligned": 0.2,
+            "misaligned": 0.01,
+            "mostly_aligned": 0.79
+          }
+        }
+      }
+    ],
+    "class_eval": {
+      "silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.94,
+        "probabilities": {
+          "high_silhouette_diversity": 0.96,
+          "low_silhouette_diversity": 0.0,
+          "moderate_silhouette_diversity": 0.04
+        }
+      },
+      "power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 0.39,
+        "probabilities": {
+          "subdued_or_static": 0.03,
+          "exemplary_power_exertion": 0.59,
+          "adequate_power_exertion": 0.38
+        }
+      }
+    }
+  },
+  "Assassins": {
+    "class_num": "8",
+    "class_name": "Assassins",
+    "elapsed_sec": 0.81,
+    "usage": {
+      "input_tokens": 6813,
+      "output_tokens": 655
+    },
+    "answers": {
+      "u1_junglestalke_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.57,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.71,
+          "strongly_aligned": 0.28
+        }
+      },
+      "u2_cutter_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.64,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.23,
+          "strongly_aligned": 0.76
+        }
+      },
+      "u3_viper_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.5,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.33,
+          "strongly_aligned": 0.66
+        }
+      },
+      "u4_nightblade_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.49,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.66,
+          "strongly_aligned": 0.33
+        }
+      },
+      "u5_ghostdagger_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.45,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.35,
+          "strongly_aligned": 0.64
+        }
+      },
+      "u6_scoutmasters_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.46,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.64,
+          "strongly_aligned": 0.35
+        }
+      },
+      "u7_umbralknife_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.81,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.12,
+          "strongly_aligned": 0.87
+        }
+      },
+      "u8_penumbra_alignment": {
+        "type": "choice",
+        "choice": "mostly_aligned",
+        "confidence": 0.39,
+        "probabilities": {
+          "misaligned": 0.02,
+          "mostly_aligned": 0.59,
+          "strongly_aligned": 0.39
+        }
+      },
+      "u9_doombladesha_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.38,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.4,
+          "strongly_aligned": 0.59
+        }
+      },
+      "u10_apexpredator_alignment": {
+        "type": "choice",
+        "choice": "strongly_aligned",
+        "confidence": 0.28,
+        "probabilities": {
+          "misaligned": 0.01,
+          "mostly_aligned": 0.47,
+          "strongly_aligned": 0.52
+        }
+      },
+      "class_silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.82,
+        "probabilities": {
+          "low_silhouette_diversity": 0.0,
+          "high_silhouette_diversity": 0.89,
+          "moderate_silhouette_diversity": 0.11
+        }
+      },
+      "class_power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 0.97,
+        "probabilities": {
+          "exemplary_power_exertion": 0.98,
+          "adequate_power_exertion": 0.02,
+          "subdued_or_static": 0.0
+        }
+      }
+    },
+    "units": [
+      {
+        "idx": "1",
+        "name": "Jungle Stalker",
+        "title": "Pounce",
+        "tier": "T1",
+        "q_id": "u1_junglestalke_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.57,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.71,
+            "strongly_aligned": 0.28
+          }
+        }
+      },
+      {
+        "idx": "2",
+        "name": "Cutter",
+        "title": "Rend",
+        "tier": "T2",
+        "q_id": "u2_cutter_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.64,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.23,
+            "strongly_aligned": 0.76
+          }
+        }
+      },
+      {
+        "idx": "3",
+        "name": "Viper",
+        "title": "Venom Lash",
+        "tier": "T2",
+        "q_id": "u3_viper_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.5,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.33,
+            "strongly_aligned": 0.66
+          }
+        }
+      },
+      {
+        "idx": "4",
+        "name": "Nightblade",
+        "title": "Shadow Blink",
+        "tier": "T3",
+        "q_id": "u4_nightblade_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.49,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.66,
+            "strongly_aligned": 0.33
+          }
+        }
+      },
+      {
+        "idx": "5",
+        "name": "Ghost Dagger",
+        "title": "Spectral Slash",
+        "tier": "T3",
+        "q_id": "u5_ghostdagger_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.45,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.35,
+            "strongly_aligned": 0.64
+          }
+        }
+      },
+      {
+        "idx": "6",
+        "name": "Scoutmaster Silas",
+        "title": "Shadow Cipher",
+        "tier": "T3",
+        "q_id": "u6_scoutmasters_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.46,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.64,
+            "strongly_aligned": 0.35
+          }
+        }
+      },
+      {
+        "idx": "7",
+        "name": "Umbral Knife",
+        "title": "Lacerate",
+        "tier": "T3",
+        "q_id": "u7_umbralknife_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.81,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.12,
+            "strongly_aligned": 0.87
+          }
+        }
+      },
+      {
+        "idx": "8",
+        "name": "Penumbra",
+        "title": "Duskfall",
+        "tier": "T4",
+        "q_id": "u8_penumbra_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "mostly_aligned",
+          "confidence": 0.39,
+          "probabilities": {
+            "misaligned": 0.02,
+            "mostly_aligned": 0.59,
+            "strongly_aligned": 0.39
+          }
+        }
+      },
+      {
+        "idx": "9",
+        "name": "Doomblade Shade",
+        "title": "Death Sentence",
+        "tier": "T4",
+        "q_id": "u9_doombladesha_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.38,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.4,
+            "strongly_aligned": 0.59
+          }
+        }
+      },
+      {
+        "idx": "10",
+        "name": "Apex Predator",
+        "title": "Alpha Strike",
+        "tier": "T5",
+        "q_id": "u10_apexpredator_alignment",
+        "verdict": {
+          "type": "choice",
+          "choice": "strongly_aligned",
+          "confidence": 0.28,
+          "probabilities": {
+            "misaligned": 0.01,
+            "mostly_aligned": 0.47,
+            "strongly_aligned": 0.52
+          }
+        }
+      }
+    ],
+    "class_eval": {
+      "silhouette_diversity": {
+        "type": "choice",
+        "choice": "high_silhouette_diversity",
+        "confidence": 0.82,
+        "probabilities": {
+          "low_silhouette_diversity": 0.0,
+          "high_silhouette_diversity": 0.89,
+          "moderate_silhouette_diversity": 0.11
+        }
+      },
+      "power_exertion": {
+        "type": "choice",
+        "choice": "exemplary_power_exertion",
+        "confidence": 0.97,
+        "probabilities": {
+          "exemplary_power_exertion": 0.98,
+          "adequate_power_exertion": 0.02,
+          "subdued_or_static": 0.0
+        }
+      }
+    }
+  },
+  "GLOBAL_ROSTER_META_AUDIT": {
+    "answers": {
+      "cross_class_role_clarity": {
+        "type": "choice",
+        "choice": "crystal_clear_role_distinction",
+        "confidence": 0.62,
+        "probabilities": {
+          "crystal_clear_role_distinction": 0.75,
+          "minor_role_overlap": 0.25,
+          "confusing_role_overlap": 0.0
+        }
+      },
+      "overall_medieval_style_cohesion": {
+        "type": "choice",
+        "choice": "masterpiece_cohesion",
+        "confidence": 0.94,
+        "probabilities": {
+          "masterpiece_cohesion": 0.96,
+          "acceptable_cohesion": 0.04,
+          "stylistically_fractured": 0.0
+        }
+      },
+      "roster_commercial_readiness": {
+        "type": "choice",
+        "choice": "production_ready_to_generate",
+        "confidence": 0.34,
+        "probabilities": {
+          "minor_prompt_tweaks_recommended": 0.44,
+          "production_ready_to_generate": 0.55,
+          "requires_major_rework": 0.01
+        }
+      }
+    },
+    "usage": {
+      "input_tokens": 1688,
+      "output_tokens": 182
+    }
+  }
+}

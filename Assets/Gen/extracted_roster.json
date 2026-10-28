@@ -1,0 +1,578 @@
+{
+  "Fighters": [
+    {
+      "name": "Vanguard Marrow — *\"Blade Cyclone\"* (T2)",
+      "stats": "HP 700 | ATK 78 | DEF 25 | MR 20 | Range 1 | Move 2.0 | ASPD 0.9",
+      "identity": "Sustained armor-shredding spin blender who gets stronger the longer a fight lasts.",
+      "ability": "- **Ability — Cyclone Sweep:** Spins for 3s, dealing 60% ATK/sec to all enemies in melee range; armor shred is doubled during the spin. **CD 8s.** Trigger: `A` = 2+ enemies in melee OR engaged; `D` = diving enemy in range.",
+      "passive": "- **Passive — Sunder (refresh):** Basic attacks reduce the target's Armor by 4% (max 20%). **CD 6s** (stack refresh window)."
+    },
+    {
+      "name": "Ironclaw Grendal — *\"Executioner\"* (T3)",
+      "stats": "HP 950 | ATK 95 | DEF 30 | MR 25 | Range 1 | Move 2.0 | ASPD 0.85",
+      "identity": "Execute-and-reset chainsaw that snowballs kills into permanent attack power.",
+      "ability": "- **Ability — Sundering Execution:** Deals 160% ATK; instantly executes enemies below 25% HP. On execute, resets 15% ATK (stacks 3×). **CD 8s.** Trigger: `A` = target <25% OR engaged; `R`/`D` = REACTIVE at threshold only.",
+      "passive": "- **Passive — Blood Debt (refresh):** All healing received is increased by 20%. **CD 5s.**"
+    },
+    {
+      "name": "Stormdancer Kael — *\"Tempest\"* (T4)",
+      "stats": "HP 1,200 | ATK 105 | DEF 28 | MR 30 | Range 1 | Move 2.3 | ASPD 1.0",
+      "identity": "Dash-through-and-detonate skirmisher that punishes clumped backlines.",
+      "ability": "- **Ability — Tempest Mark:** Dashes through up to 4 enemies, marking them for 8s; marks auto-detonate 1.2s later (120% ATK each); kills refund 2s CD. **CD 7s.** Trigger: `A` = carry in range + ≥2 enemies in dash line.",
+      "passive": "- **Passive — Windborne (refresh):** +15% dodge chance against ranged basic attacks. **CD 5s.**"
+    },
+    {
+      "name": "Warcry Beserka — *\"Frenzy\"* (T2)",
+      "stats": "HP 680 | ATK 82 | DEF 20 | MR 15 | Range 1 | Move 2.1 | ASPD 1.0",
+      "identity": "Low-HP berserker that is most dangerous exactly when she should be dead.",
+      "ability": "- **Ability — War Shout:** AoE 70% ATK damage; heals for 12% missing HP; +30% damage reduction for 3s. **CD 6s.** Trigger: `A` = below 50% HP (berserk window) OR engaged; `R` = below 60% HP.",
+      "passive": "- **Passive — Bloodrage (refresh):** Below 50% HP, +50% ASPD and +25% lifesteal. **CD 4s.**"
+    },
+    {
+      "name": "Sunder Aegis — *\"Shieldbreaker\"* (T1)",
+      "stats": "HP 520 | ATK 60 | DEF 22 | MR 18 | Range 1 | Move 2.0 | ASPD 0.9",
+      "identity": "Anti-shield specialist — shatters barrier stacks without completely invalidating defensive compositions.",
+      "ability": "- **Ability — Aegis Crack:** Deals 130% ATK; shatters **60% of the target's active shield** and deals 50% of the shattered value as **bonus True Damage**, applying a 1.2s silence. **CD 7s.** Trigger: `A` = shielded target in range; else nearest.",
+      "passive": "- **Passive — Shield Rend (refresh):** Attacks deal +30% damage to shielded targets and ignore 40% of active shields. **CD 5s.**"
+    },
+    {
+      "name": "Duelist Valen — *\"Rival's Mark\"* (T3)",
+      "stats": "HP 900 | ATK 92 | DEF 26 | MR 24 | Range 1 | Move 2.0 | ASPD 0.95",
+      "identity": "Honorable 1v1 duelist who isolates and shreds a single high-value target.",
+      "ability": "- **Ability — Duel:** Challenges the highest-ATK enemy for 6s: both deal +25% damage to each other; Valen gains +20% damage reduction from all other enemies during the duel. Killing the dueled target refunds 3s CD. **CD 9s.** Trigger: `A` = carry in range; `D` = REACTIVE vs diving carry.",
+      "passive": "- **Passive — Honor Bound (refresh):** +20% move speed while no enemy is within 2 hexes. **CD 6s.**"
+    },
+    {
+      "name": "Pugilist Oni — *\"Combo Count\"* (T3)",
+      "stats": "HP 850 | ATK 88 | DEF 30 | MR 22 | Range 1 | Move 2.0 | ASPD 1.1",
+      "identity": "Combo-string boxer rewarded for relentless single-target focus.",
+      "ability": "- **Ability — Flurry:** Unleashes 5 rapid jabs (40% ATK each); each jab extends the target's stun by 0.2s. **CD 8s.** Trigger: `A` = target locked; casts on lock completion.",
+      "passive": "- **Passive — Rhythm (refresh):** Every 3rd basic attack is a *Crushing Jab* (150% ATK, stuns 0.5s). **CD 4s.** AI hard-locks target (only enemy CC resets the combo)."
+    },
+    {
+      "name": "Gravewalker Corvin — *\"Soul Form\"* (T4)",
+      "stats": "HP 1,150 | ATK 100 | DEF 24 | MR 28 | Range 1 | Move 2.0 | ASPD 0.9",
+      "identity": "Transform-hypercarry that banks souls from nearby deaths into a devastating alternate form.",
+      "ability": "- **Ability — Gravewalker Form:** Transforms for 8s: +40% ATK, attacks cleave to adjacent enemies, +20% lifesteal; each kill extends the transformation by 2s. **CD 12s** (transform resolved → CD). Trigger: `A` = 4+ souls banked; `D` = REACTIVE.",
+      "passive": "- **Passive — Soul Harvest (refresh):** Gains +5s CD refund for every enemy unit killed within 3 hexes (any team). **CD 6s.**"
+    },
+    {
+      "name": "Chainbreaker Rhuk — *\"Iron Tether\"* (T1)",
+      "stats": "HP 540 | ATK 62 | DEF 20 | MR 16 | Range 1 | Move 2.0 | ASPD 0.85",
+      "identity": "Cheap hooking disruptor that drags backline targets into the meat grinder.",
+      "ability": "- **Ability — Chain Hook:** Pulls the farthest enemy within 4 hexes into melee range, stunning them 1s and dealing 100% ATK. **CD 7s.** Trigger: `A` = backline target in range; `D` = peel vs diving carry.",
+      "passive": "- **Passive — Heavy Pull (refresh):** Enemies that are knocked or pulled take +10% damage for 3s. **CD 5s.**"
+    },
+    {
+      "name": "Phoenixblade Sera — *\"Phoenix Rotation\"* (T5)",
+      "stats": "HP 1,450 | ATK 130 | DEF 32 | MR 32 | Range 1 | Move 2.2 | ASPD 1.1",
+      "identity": "Reset-chain melee hypercarry — the late-game win condition of a melee core comp.",
+      "ability": "- **Ability — Phoenix Spin:** 360° AoE attack (170% ATK); if it hits 2+ enemies or scores a kill, immediately recasts (max 3 casts per cycle). **CD 10s** (after final recast resolves). Trigger: `A` = 2+ enemies in melee; `D` = REACTIVE.",
+      "passive": "- **Passive — Bladesong (refresh):** Every 4th basic attack deals 200% ATK. **CD 5s.**"
+    }
+  ],
+  "Tankers": [
+    {
+      "name": "Aegis Bastion — *\"Fortress\"* (T3)",
+      "stats": "HP 1,650 | ATK 65 | DEF 55 | MR 45 | Range 1 | Move 1.6 | ASPD 0.6",
+      "identity": "Taunt-shield bulwark that forces enemies to fight him while shielding the backline.",
+      "ability": "- **Ability — Bulwark Shout:** Taunts all enemies within 3 hexes for 2s; grants nearby allies a shield equal to 20% of their max HP. **CD 8s.** Trigger: `D`/`R` = any enemy in range or ally <70%; `A` = ally <40% or self focused by 2+.",
+      "passive": "- **Passive — Unyielding (refresh):** Below 30% HP, gains +25% damage reduction. **CD 4s.**"
+    },
+    {
+      "name": "Stoneheart Gol — *\"Earthbind\"* (T2)",
+      "stats": "HP 1,150 | ATK 55 | DEF 60 | MR 35 | Range 1 | Move 1.5 | ASPD 0.55",
+      "identity": "Scaling armor rock that gets tougher the more damage he absorbs.",
+      "ability": "- **Ability — Quake:** Deals 80% ATK AoE and roots all enemies in a 2-hex radius for 1.5s; gains +5 armor per rooted enemy. **CD 9s.** Trigger: `D`/`R` = 2+ enemies in radius; `A` = REACTIVE (3+ enemies).",
+      "passive": "- **Passive — Bedrock (refresh):** +2 armor per missing 10% HP (max +20 armor). **CD 4s.**"
+    },
+    {
+      "name": "Tidecaller Nami — *\"Watery Grave\"* (T1)",
+      "stats": "HP 950 | ATK 45 | DEF 35 | MR 45 | Range 1 | Move 1.7 | ASPD 0.6",
+      "identity": "Cheap CC tank with a passive regen aura.",
+      "ability": "- **Ability — Watery Grave:** Stuns the farthest enemy in a line for 2s and deals 60% ATK magic damage. **CD 8s.** Trigger: `D` = carry engaged in line; `A` = line through 2+ enemies.",
+      "passive": "- **Passive — Tidal Blessing (refresh):** Nearby allies (within 2 hexes) regenerate 1.5% max HP/sec. **CD 4s.**"
+    },
+    {
+      "name": "Thornback Bramble — *\"Thorn Aura\"* (T3)",
+      "stats": "HP 1,500 | ATK 60 | DEF 70 | MR 30 | Range 1 | Move 1.5 | ASPD 0.5",
+      "identity": "Reflect-damage tank that punishes auto-attack compositions.",
+      "ability": "- **Ability — Ironbark:** For 4s, +40 armor and reflect increased to 60%. **CD 6s.** Trigger: `D`/`A` = engaged by 2+ melee or focused; `R` = REACTIVE.",
+      "passive": "- **Passive — Thorns (refresh):** Reflects 30% of damage taken from melee attackers as true damage. **CD 3s** (highest-frequency defensive skill — pure reflect pressure)."
+    },
+    {
+      "name": "Bonecage Maldr — *\"Necrotic Link\"* (T4)",
+      "stats": "HP 1,850 | ATK 70 | DEF 65 | MR 55 | Range 1 | Move 1.5 | ASPD 0.55",
+      "identity": "Damage-link chaining that punishes clumped enemies.",
+      "ability": "- **Ability — Necrotic Grip:** Entangles the 3 nearest enemies with chains for 4s (30% slow); damage dealt to any chained enemy is shared 40% to the other chained enemies. **CD 9s.** Trigger: `D` = 3 enemies clumped; `A` = REACTIVE (4+ clumped).",
+      "passive": "- **Passive — Rot (refresh):** Enemies that die near him grant +5% max HP (stacks 5×). **CD 5s.**"
+    },
+    {
+      "name": "Bulwark Aldric — *\"Interceptor\"* (T1)",
+      "stats": "HP 880 | ATK 48 | DEF 40 | MR 30 | Range 1 | Move 1.6 | ASPD 0.5",
+      "identity": "Bodyguard that redirects damage meant for the lowest-HP ally.",
+      "ability": "- **Ability — Intercept:** Protects the lowest-HP ally within 3 hexes: redirects 60% of damage meant for them to himself for 5s; +25 armor during. **CD 5s.** Trigger: `D`/`R` = ally <60% HP (HIGH); `A` = ally <35%.",
+      "passive": "- **Passive — Sentinel (refresh):** Takes 15% less damage from enemies within 1 hex. **CD 4s.**"
+    },
+    {
+      "name": "Frostward Ymir — *\"Glacial Aura\"* (T4)",
+      "stats": "HP 1,750 | ATK 68 | DEF 60 | MR 50 | Range 1 | Move 1.5 | ASPD 0.55",
+      "identity": "Slow-aura zone control tank that turns slows into freezes.",
+      "ability": "- **Ability — Permafrost:** Freezes enemies in a 3-hex line for 1.5s (100% ATK); enemies already slowed are frozen for 2.5s. **CD 9s.** Trigger: `D` = 2+ slowed enemies in line; `A` = REACTIVE.",
+      "passive": "- **Passive — Glacial (refresh):** Enemies within 2 hexes are slowed 15%. **CD 3s.**"
+    },
+    {
+      "name": "Graviton Olum — *\"Black Hole\"* (T5)",
+      "stats": "HP 2,100 | ATK 80 | DEF 75 | MR 60 | Range 1 | Move 1.4 | ASPD 0.5",
+      "identity": "Wombo-combo initiator that condenses the entire enemy team into a single cluster.",
+      "ability": "- **Ability — Event Horizon:** After a 1.5s channel, pulls all enemies within 3 hexes to center, stunning 1.5s and dealing 120% ATK. **CD 12s** (longest tanker CD — his payoff is comp-defining). Trigger: `A`/`D` = ≥3 enemies in radius AND no enemy CC ready in range (channel safety per `08` §1.3).",
+      "passive": "- **Passive — Dense Mass (refresh):** +10% HP per 3 enemies within 2 hexes (max +30%). **CD 5s.**"
+    },
+    {
+      "name": "Voidshell Krask — *\"Adaptive Plating\"* (T2)",
+      "stats": "HP 1,200 | ATK 52 | DEF 55 | MR 55 | Range 1 | Move 1.6 | ASPD 0.55",
+      "identity": "Adaptive-resistance tank that reshapes its defenses against whatever is hitting it.",
+      "ability": "- **Ability — Shell Slam:** Deals 90% ATK and applies *Unstable* (target takes +20% damage for 3s) — a focus-fire enabler. **CD 7s.** Trigger: `A` = marked focus target in range; `D` = REACTIVE.",
+      "passive": "- **Passive — Adaptation (refresh):** After taking damage, armor/MR adapts toward that damage type (caps +50 to that stat, decays otherwise). **CD 3s.**"
+    },
+    {
+      "name": "Paladin Luxor — *\"Divine Bulwark\"* (T3)",
+      "stats": "HP 1,550 | ATK 58 | DEF 58 | MR 48 | Range 1 | Move 1.6 | ASPD 0.55",
+      "identity": "Shield-support tank that keeps the whole team alive through barriers.",
+      "ability": "- **Ability — Sanctum:** AoE: allies gain shields equal to 25% max HP + 15% damage reduction for 4s; self-heals 15% max HP. **CD 8s.** Trigger: `D`/`R` = any ally <60% HP (HIGH); `A` = ally <35%.",
+      "passive": "- **Passive — Radiance (refresh):** Every 5s, grants the 2 lowest-HP allies a shield (10% max HP). **CD 5s.**"
+    }
+  ],
+  "Mages": [
+    {
+      "name": "Astralweaver Orin — *\"Starfall\"* (T4)",
+      "stats": "HP 950 | AP 100 | DEF 25 | MR 40 | Range 3 | Move 1.8 | ASPD 0.7",
+      "identity": "Scaling meteor caster whose Starfall grows with every spell he throws.",
+      "ability": "- **Ability — Starfall:** Summons meteors on the enemy cluster for 3s, dealing 60% AP/sec within the radius. **CD 11s.** Trigger: `A` = ≥3 enemies in cluster; `J` = camp cluster.",
+      "passive": "- **Passive — Star Dust (refresh):** Each spell cast grows Starfall's radius by 1 hex and +10% damage (max +50% / +3 hex). **CD 6s** (cast-growth counter re-applied per cast)."
+    },
+    {
+      "name": "Frostcaller Lyra — *\"Crystal Nova\"* (T1)",
+      "stats": "HP 620 | AP 55 | DEF 15 | MR 25 | Range 3 | Move 1.8 | ASPD 0.7",
+      "identity": "Chill-to-freeze control mage — the budget CC engine.",
+      "ability": "- **Ability — Crystal Nova:** AoE magic damage + applies 2 chill stacks. **CD 7s.** Trigger: `A` = 2+ enemies; `D` = REACTIVE peel vs dive.",
+      "passive": "- **Passive — Chill (refresh):** Enemies hit are chilled (10% slow, stacks 3×); at 3 stacks they are frozen for 1s. **CD 4s.**"
+    },
+    {
+      "name": "Pyromancer Cinder — *\"Inferno Field\"* (T2)",
+      "stats": "HP 700 | AP 70 | DEF 18 | MR 30 | Range 3 | Move 1.8 | ASPD 0.7",
+      "identity": "Burn DoT spreader that turns kills into chain explosions.",
+      "ability": "- **Ability — Inferno Field:** Creates a burning zone (3 hexes) dealing 45% AP/sec for 4s. **CD 9s.** Trigger: `A` = ≥3 enemies cluster; `J` = camp.",
+      "passive": "- **Passive — Combust (refresh):** Enemies killed while burning explode, spreading burn to adjacent enemies. **CD 5s.**"
+    },
+    {
+      "name": "Stormcaller Zeph — *\"Chain Lightning\"* (T3)",
+      "stats": "HP 800 | AP 85 | DEF 20 | MR 35 | Range 3 | Move 1.8 | ASPD 0.7",
+      "identity": "Bounce-damage mage that punishes dense formations.",
+      "ability": "- **Ability — Chain Lightning:** Deals 130% AP to the target, bouncing to 4 nearby enemies at 70% damage each. **CD 8s.** Trigger: `A` = 3+ enemies in bounce range; else REACTIVE.",
+      "passive": "- **Passive — Static (refresh):** Enemies struck by Chain Lightning take +5% magic damage per bounce history (stacking). **CD 5s.**"
+    },
+    {
+      "name": "Voidmaw Drenn — *\"Reality Rift\"* (T5)",
+      "stats": "HP 1,100 | AP 120 | DEF 22 | MR 45 | Range 4 | Move 1.7 | ASPD 0.65",
+      "identity": "%max-HP zone damage that melts even the fattest tanks.",
+      "ability": "- **Ability — Reality Rift:** Opens a rift (2-hex radius) for 5s dealing 8% max HP magic damage/sec to enemies inside. **CD 12s** (longest mage nuke — tank-melting power gated). Trigger: `A` = 2+ enemies OR a Tanker in range; `D` = REACTIVE.",
+      "passive": "- **Passive — Void Burns (refresh):** Rift damage ignores 30% of MR. **CD 5s** (MR-pierce re-applied per tick)."
+    },
+    {
+      "name": "Timewarp Elowen — *\"Chrono Lock\"* (T4)",
+      "stats": "HP 900 | AP 90 | DEF 20 | MR 40 | Range 3 | Move 1.8 | ASPD 0.7",
+      "identity": "Defensive tempo mage that rewind-damages allies and delays enemy burst.",
+      "ability": "- **Ability — Chrono Lock:** Marks a 3-hex area for 3s: enemy damage dealt inside is 40% delayed; ally damage received inside is 40% reverted as healing. **CD 10s.** Trigger: `D` = ally cluster under threat; `A` = REACTIVE.",
+      "passive": "- **Passive — Time Dilation (refresh):** Allies within 2 hexes gain +10% ASPD. **CD 4s.**"
+    },
+    {
+      "name": "Hexkeeper Mira — *\"Hex Curse\"* (T2)",
+      "stats": "HP 680 | AP 65 | DEF 16 | MR 28 | Range 3 | Move 1.8 | ASPD 0.7",
+      "identity": "Focus-fire amplifier that makes one enemy the whole team's target.",
+      "ability": "- **Ability — Hex Curse:** Marks an enemy for 8s: +25% damage taken from all sources; if the marked enemy dies, the curse spreads to the nearest enemy. **CD 7s.** Trigger: `A` = focus target alive; `D` = REACTIVE.",
+      "passive": "- **Passive — Malice (refresh):** Hexed enemies take +25% magic damage. **CD 4s.**"
+    },
+    {
+      "name": "Sylphweaver Auriel — *\"Arcane Gust\"* (T3)",
+      "stats": "HP 780 | AP 80 | DEF 18 | MR 32 | Range 3 | Move 1.9 | ASPD 0.7",
+      "identity": "Displacement disruptor that reshapes the battlefield.",
+      "ability": "- **Ability — Arcane Gust:** Knocks enemies in a line back 2 hexes (90% AP); enemies pushed into a wall/edge are stunned 1.5s. **CD 8s.** Trigger: `A` = 2+ enemies in line OR enemy near wall; `D` = peel.",
+      "passive": "- **Passive — Zephyr (refresh):** +10% dodge chance. **CD 4s.**"
+    },
+    {
+      "name": "Venomancer Slyth — *\"Poison Cloud\"* (T1)",
+      "stats": "HP 600 | AP 52 | DEF 14 | MR 24 | Range 3 | Move 1.8 | ASPD 0.7",
+      "identity": "Poison DoT spreader that shreds enemy armor over time.",
+      "ability": "- **Ability — Poison Cloud:** Zone (3 hexes) applying 4 poison stacks; enemies inside take 30% AP/sec. **CD 8s.** Trigger: `A` = 2+ enemies; `J` = camp; `D` = REACTIVE.",
+      "passive": "- **Passive — Venom (refresh):** Poison ticks reduce the target's armor by 2% per stack (max 10 stacks). **CD 4s** (DoT ticks re-applied)."
+    },
+    {
+      "name": "Echo Sage Vermos — *\"Resonance\"* (T5)",
+      "stats": "HP 1,000 | AP 115 | DEF 20 | MR 45 | Range 4 | Move 1.7 | ASPD 0.65",
+      "identity": "Spell-echo chaos agent that copies the last friendly ability.",
+      "ability": "- **Ability — Resonance:** Copies the last ability cast by a friendly unit and recasts it on the enemy cluster at 60% effectiveness (healing abilities echo as heals on allies). **CD 10s.** Trigger: `A` = any ally cast a damage ult in last 4s; `D` = REACTIVE echo of protection.",
+      "passive": "- **Passive — Echo Bolt (refresh):** Basic attacks are arcane bolts dealing 60% AP. **CD 4s.**"
+    }
+  ],
+  "Marksmen": [
+    {
+      "name": "Hawkeye Vale — *\"Marked Prey\"* (T2)",
+      "stats": "HP 650 | ATK 78 | DEF 18 | MR 15 | Range 5 | Move 1.9 | ASPD 0.85",
+      "identity": "Single-target focus damage that melts whatever he decides to hunt.",
+      "ability": "- **Ability — Marked Prey:** Marks the highest-HP enemy: Vale deals +30% damage to them; killing the marked target refunds 3s CD. **CD 9s.** Trigger: `A` = mark not on target; `D` = REACTIVE.",
+      "passive": "- **Passive — Hunter's Focus (refresh):** +10% damage against the unit he last attacked (stacks per hit, per-target ramp). **CD 5s.**"
+    },
+    {
+      "name": "Gunslinger Wren — *\"Fan the Hammer\"* (T3)",
+      "stats": "HP 700 | ATK 85 | DEF 16 | MR 12 | Range 5 | Move 1.9 | ASPD 1.0",
+      "identity": "Multi-target spray damage — volume over precision.",
+      "ability": "- **Ability — Fan the Hammer:** Fires 5 shots at up to 3 enemies in range (55% ATK each). **CD 7s.** Trigger: `A` = 2+ enemies in range; else REACTIVE.",
+      "passive": "- **Passive — Quickdraw (refresh):** After casting, the next 3 basic attacks fire at 150% speed. **CD 5s.**"
+    },
+    {
+      "name": "Sniper Castella — *\"Deadeye\"* (T4)",
+      "stats": "HP 750 | ATK 105 | DEF 15 | MR 18 | Range 7 | Move 1.8 | ASPD 0.7",
+      "identity": "Extreme-range execute sniper — the safest damage dealer in the game, if protected.",
+      "ability": "- **Ability — Deadeye:** Channels 1s, then fires at the farthest enemy: 250% ATK damage; executes enemies below 20% HP. **CD 10s.** Trigger: `A` = farthest enemy in range AND no melee within 2 hexes (channel safety); `D` = REACTIVE.",
+      "passive": "- **Passive — Long Shot (refresh):** +1 range while no enemy is within 3 hexes. **CD 4s.**"
+    },
+    {
+      "name": "Twinblade Vex — *\"Ricochet\"* (T1)",
+      "stats": "HP 580 | ATK 65 | DEF 14 | MR 10 | Range 4 | Move 2.0 | ASPD 1.0",
+      "identity": "Bounce-damage skirmisher that punishes clumped backlines.",
+      "ability": "- **Ability — Blade Waltz:** Dashes to the farthest enemy, striking for 120% ATK, then bounces back to her original spot. **CD 6s** (shortest marksman CD — cheap mobile threat). Trigger: `A` = backline target in range.",
+      "passive": "- **Passive — Bounce (refresh):** Basic attacks ricochet to 2 additional enemies at 40% damage. **CD 5s.**"
+    },
+    {
+      "name": "Phantom Dart Nyx — *\"Phase Shift\"* (T3)",
+      "stats": "HP 660 | ATK 88 | DEF 14 | MR 14 | Range 5 | Move 2.1 | ASPD 0.9",
+      "identity": "Untargetable-phase kiter who erases herself mid-fight.",
+      "ability": "- **Ability — Phase Barrage:** Becomes untargetable for 1.5s while firing 6 shots (50% ATK) at random enemies. **CD 9s.** Trigger: `A` = self being focused OR full CD ready; `D` = REACTIVE self-peel.",
+      "passive": "- **Passive — Ghost Step (refresh):** Every 6s, phases briefly (untargetable) for 0.5s. **CD 6s.**"
+    },
+    {
+      "name": "Gunmage Petra — *\"Hex Rounds\"* (T2)",
+      "stats": "HP 620 | ATK 70 (magic) | DEF 15 | MR 25 | Range 5 | Move 1.9 | ASPD 0.8",
+      "identity": "Hybrid marksman dealing magic basic attacks that shred MR.",
+      "ability": "- **Ability — Void Shot:** Fires a bolt dealing 140% ATK magic damage; against targets at 0 MR, deals true damage. **CD 8s.** Trigger: `A` = MR-shredded target in range; else REACTIVE.",
+      "passive": "- **Passive — Hex Rounds (refresh):** Basic attacks deal magic damage and shred 3 MR per hit (max 15 MR). **CD 4s.**"
+    },
+    {
+      "name": "Longshot Bren — *\"Piercing Bolt\"* (T1)",
+      "stats": "HP 570 | ATK 68 | DEF 16 | MR 12 | Range 6 | Move 1.9 | ASPD 0.8",
+      "identity": "Line-pierce marksman that punishes clumped tanks.",
+      "ability": "- **Ability — Fulminate Bolt:** Fires a piercing bolt dealing 150% ATK to all enemies in a line. **CD 7s.** Trigger: `A` = 2+ enemies in line; `D` = REACTIVE.",
+      "passive": "- **Passive — Piercing (refresh):** Basic attacks pierce through enemies, dealing 80% to each subsequent target. **CD 4s.**"
+    },
+    {
+      "name": "Stormrider Jinx — *\"Rapidfire Rocket\"* (T4)",
+      "stats": "HP 780 | ATK 100 | DEF 15 | MR 15 | Range 5 | Move 1.9 | ASPD 1.1",
+      "identity": "Rocket-frenzy snowball marksman.",
+      "ability": "- **Ability — Rocket Barrage:** Fires 3 rockets at random enemies (90% ATK each, small AoE). **CD 9s.** Trigger: `A` = 2+ enemies cluster; `J` = camp.",
+      "passive": "- **Passive — Frenzy (refresh):** On kill, +40% ASPD for 3s (refreshes on kills). **CD 4s.**"
+    },
+    {
+      "name": "Eclipsed Iri — *\"Moonlight Shot\"* (T5)",
+      "stats": "HP 820 | ATK 120 | DEF 16 | MR 18 | Range 6 | Move 2.0 | ASPD 0.9",
+      "identity": "Positional assassin-marksman — the backline's nightmare.",
+      "ability": "- **Ability — Moonlight Veil:** Stealths for 3s; the next attack from stealth deals 220% ATK and applies a 30% slow. **CD 10s.** Trigger: `A` = carry in range AND self not revealed; `D` = REACTIVE.",
+      "passive": "- **Passive — Shadow's Edge (refresh):** +30% damage when attacking enemies not currently targeting her. **CD 5s.**"
+    },
+    {
+      "name": "Ballista Grun — *\"Siege Stance\"* (T3)",
+      "stats": "HP 680 | ATK 92 | DEF 16 | MR 15 | Range 5 (→9) | Move 1.5 | ASPD 0.6",
+      "identity": "Rooted siege turret with extreme commitment — immense range, no mobility.",
+      "ability": "- **Ability — Siege Stance:** Roots self for 5s: +4 range, attacks pierce, +25% damage; auto-exits if engaged. **CD 10s** (stance duration → CD). Trigger: `A`/`D` = no enemy within 3 hexes AND frontline engaged.",
+      "passive": "- **Passive — Reinforced (refresh):** +20 armor while in Siege Stance. **CD 4s.**"
+    }
+  ],
+  "Supports": [
+    {
+      "name": "Seraph Angelus — *\"Healing Light\"* (T2)",
+      "stats": "HP 700 | ATK 45 | DEF 15 | MR 30 | Range 3 | Move 1.9 | ASPD 0.6",
+      "identity": "Chain healer — the sustain engine of any comp.",
+      "ability": "- **Ability — Healing Light:** Heals the 3 lowest-HP allies for 18% max HP (prioritizes carries); overheal becomes shield. **CD 5s.** Trigger: `R`/`D` = ally <70%; `A` = ally <40%.",
+      "passive": "- **Passive — Serene Aura (refresh):** Allies within 2 hexes regenerate 1% max HP/sec. **CD 4s.**"
+    },
+    {
+      "name": "Oracle Vessa — *\"Foresight\"* (T4)",
+      "stats": "HP 750 | ATK 50 | DEF 18 | MR 40 | Range 3 | Move 1.9 | ASPD 0.6",
+      "identity": "Anti-CC oracle who turns incoming crowd control into shields.",
+      "ability": "- **Ability — Foresight:** Grants a target ally a shield (15% max HP) + CC immunity for 3s; Vessa gains +30% CD refund. **CD 9s.** Trigger: `R`/`D` = ally channeling OR targeted by a CC-caster; `A` = REACTIVE (ally <35% or focused).",
+      "passive": "- **Passive — Prescience (refresh):** When an ally within 3 hexes would be CC'd, grants them a 1.2s spell shield instead (once per 8s per ally). **CD 8s.**"
+    },
+    {
+      "name": "Battlechanter Rory — *\"War Chant\"* (T3)",
+      "stats": "HP 800 | ATK 55 | DEF 20 | MR 35 | Range 3 | Move 1.9 | ASPD 0.7",
+      "identity": "Attack-steroid aura — the damage amplifier for physical carries.",
+      "ability": "- **Ability — War Chant:** AoE: allies gain +25% ATK and +20% ASPD for 5s; enemies within 1 hex of an ally are slowed 10%. **CD 10s** (big buff gated). Trigger: `A` = 2+ carries engaged; `D` = defended fight.",
+      "passive": "- **Passive — Inspiring (refresh):** Allies within 3 hexes gain +15% ASPD. **CD 5s.**"
+    },
+    {
+      "name": "Timekeeper Nora — *\"Haste\"* (T1)",
+      "stats": "HP 620 | ATK 40 | DEF 12 | MR 25 | Range 3 | Move 2.0 | ASPD 0.6",
+      "identity": "Speed enabler — makes the fastest units even faster.",
+      "ability": "- **Ability — Haste:** Grants the nearest ally +40% move speed and +30% ASPD for 4s; refunds CD. **CD 6s.** Trigger: `A` = dive ally engaging; `R` = retreating ally.",
+      "passive": "- **Passive — Quick Feet (refresh):** All allies gain +8% move speed. **CD 4s.**"
+    },
+    {
+      "name": "Bard of Echoes Lim — *\"Resonance Note\"* (T5)",
+      "stats": "HP 850 | ATK 55 | DEF 16 | MR 45 | Range 3 | Move 1.9 | ASPD 0.6",
+      "identity": "Ability-CDR aura — the late-game spell amplifier.",
+      "ability": "- **Ability — Resonance Note:** The next friendly ability cast within 4s is echoed at 50% (if damaging) or boosted +30% (if buff/heal). **CD 11s.** Trigger: `A` = ally with damage ult in range; `R`/`D` = ally healer ready.",
+      "passive": "- **Passive — Harmony (refresh):** Allies within 3 hexes gain +10% cast speed. **CD 5s.**"
+    },
+    {
+      "name": "Penitent Lucian — *\"Sacrificial Transfusion\"* (T2)",
+      "stats": "HP 920 | ATK 42 | DEF 16 | MR 35 | Range 2 | Move 1.9 | ASPD 0.6",
+      "identity": "Sacrificial lifeline healer — trades his own robust life pool to pull dying allies back from the brink, sustaining himself with accelerated regenerative flesh.",
+      "ability": "- **Ability — Sacrificial Transfusion:** Channels a golden blood-tether (up to 3 hexes) to the lowest-%-HP ally: instantly heals **35% of the target's missing HP**, then siphons **10% max HP/sec for 2s** into the ally. Lucian takes equal damage to the health siphoned. **Safety Clause:** self-drain immediately cancels if Lucian reaches **15% max HP**. Target gains +20% damage reduction while tethered. **CD 6s.** Trigger: `R`/`D` = ally <60% HP; `A` = REACTIVE (ally <35% HP).",
+      "passive": "- **Passive — Martyr's Recuperation (refresh):** Lucian regenerates **4% max HP/sec** baseline. When falling below 50% HP, his recovery doubles to **8% max HP/sec** for 4s. **CD 5s.**"
+    },
+    {
+      "name": "Warden of Oath Galen — *\"Oathbind\"* (T3)",
+      "stats": "HP 900 | ATK 52 | DEF 25 | MR 35 | Range 2 | Move 1.8 | ASPD 0.6",
+      "identity": "Damage-link mitigator who ties an ally's survival to an enemy's pain.",
+      "ability": "- **Ability — Oathbind:** Links a target ally to a target enemy for 5s: the ally takes 40% less damage; the enemy takes 40% of the damage dealt to the ally. **CD 8s.** Trigger: `R`/`D` = ally <65%; `A` = REACTIVE (ally <35%).",
+      "passive": "- **Passive — Shared Fate (refresh):** Allies gain +5% damage reduction for each linked enemy. **CD 5s.**"
+    },
+    {
+      "name": "Pixie Trickster Fae — *\"Pixie Dust\"* (T2)",
+      "stats": "HP 650 | ATK 45 | DEF 14 | MR 35 | Range 3 | Move 1.9 | ASPD 0.6",
+      "identity": "Polymorph control — turns a carry into a harmless critter.",
+      "ability": "- **Ability — Pixie Dust:** Polymorphs a target enemy into a critter for 2s (cannot attack or cast, −50% move speed). **CD 8s.** Trigger: `D` = enemy carry engaging; `R` = peel; `A` = REACTIVE (carry within range).",
+      "passive": "- **Passive — Mischief (refresh):** Every 6s, charms the nearest enemy for 1s (they walk toward Fae). **CD 6s.**"
+    },
+    {
+      "name": "Bannerlord Cassius — *\"Standard of Gilded\"* (T4)",
+      "stats": "HP 760 | ATK 48 | DEF 22 | MR 35 | Range 3 | Move 1.8 | ASPD 0.6",
+      "identity": "Resurrection banner — tactical second wind enabler.",
+      "ability": "- **Ability — Standard of Gilded:** Plants a banner (3-hex radius, 6s): allies inside gain +20 armor/MR. The first ally to suffer fatal damage inside enters **Golden Stasis for 1.2s** (untargetable/invulnerable) and reassembles at **25% max HP + a 20% max HP decay shield (lasts 3s)** once per banner. **CD 12s** (revive gated hardest). Trigger: `D` = carries in formation; `A` = REACTIVE.",
+      "passive": "- **Passive — Marching Orders (refresh):** Adjacent allies gain +15 armor and +15 MR. **CD 5s.**"
+    },
+    {
+      "name": "Nyx Oracle Kira — *\"Silence Field\"* (T2)",
+      "stats": "HP 700 | ATK 48 | DEF 15 | MR 45 | Range 3 | Move 1.9 | ASPD 0.6",
+      "identity": "Silence-zone control — the caster shutdown.",
+      "ability": "- **Ability — Silence Field:** Zone (3 hexes) for 3s: enemies inside are silenced (cannot cast) and take 40% AP damage on entry. **CD 9s.** Trigger: `D` = channeling enemy OR ≥3 casters in zone; `A` = REACTIVE.",
+      "passive": "- **Passive — Mana Leak (refresh):** Enemies within 2 hexes gain **+20% CD penalty**. **CD 4s.**"
+    }
+  ],
+  "Siege": [
+    {
+      "name": "Titan Mortar Gus — *\"Bombardment\"* (T4)",
+      "stats": "HP 950 | ATK 120 | DEF 15 | MR 15 | Range 6 | Move 0.9 | ASPD 0.4",
+      "identity": "Long-range structure bombardment with AoE splash.",
+      "ability": "- **Ability — Bombardment:** Fires 3 shells at a structure area (2-hex AoE, 90% ATK each); damages units in the splash too. **CD 9s.** Trigger: `A`/`D` = structure in range; `J` = REACTIVE vs units.",
+      "passive": "- **Passive — Heavy Shells (refresh):** +150% damage to structures. **CD 6s.**"
+    },
+    {
+      "name": "Rammaster Kodo — *\"Battering Ram\"* (T2)",
+      "stats": "HP 800 | ATK 85 | DEF 20 | MR 10 | Range 1 | Move 1.3 | ASPD 0.5",
+      "identity": "Charge-based structure breaker — the fastest siege unit, still slower than everything else.",
+      "ability": "- **Ability — Battering Ram:** Charges 3 hexes in a line, dealing 200% ATK to units and **400% ATK** to structures; stuns himself 1s afterward. **CD 8s.** Trigger: `A` = structure in line OR clear line to frontline.",
+      "passive": "- **Passive — Momentum (refresh):** +20% move speed while no enemy is adjacent. **CD 4s.**"
+    },
+    {
+      "name": "Catapult Weyr — *\"Siege Toss\"* (T3)",
+      "stats": "HP 900 | ATK 100 | DEF 18 | MR 12 | Range 7 | Move 0.9 | ASPD 0.4",
+      "identity": "Over-the-wall lobber that bypasses defensive layers entirely.",
+      "ability": "- **Ability — Siege Toss:** Lobs a boulder over walls to a target hex: 140% ATK AoE (structures take **250%**). **CD 10s.** Trigger: `A`/`D` = structure or unit cluster in range.",
+      "passive": "- **Passive — Arc Shot (refresh):** Ignores walls; +100% damage to structures. **CD 6s.**"
+    },
+    {
+      "name": "Sapper Drox — *\"Demolition Charge\"* (T1)",
+      "stats": "HP 550 | ATK 60 | DEF 10 | MR 8 | Range 2 | Move 1.1 | ASPD 0.6",
+      "identity": "Bomb-planter — cheap, suicidal, devastating to structures.",
+      "ability": "- **Ability — Demolition Charge:** Plants a bomb on the nearest structure (2s fuse) dealing **350% ATK true damage** to structures. **CD 8s.** Trigger: `A`/`D` = structure in melee range.",
+      "passive": "- **Passive — Set Charge (refresh):** Standing next to a structure plants a ticking charge every 8s (30% ATK structure DoT). **CD 8s.**"
+    },
+    {
+      "name": "Cannoncer Brik — *\"Cannonball\"* (T3)",
+      "stats": "HP 850 | ATK 110 | DEF 16 | MR 10 | Range 5 | Move 0.9 | ASPD 0.35",
+      "identity": "Single-huge-shot structure deleter.",
+      "ability": "- **Ability — Cannonball:** Massive shot: **400% ATK to structures**, 250% to units in line; 1s reload animation afterward. **CD 11s** (biggest single-shot spike gated). Trigger: `A`/`D` = structure in range.",
+      "passive": "- **Passive — Solid Shot (refresh):** +125% damage to structures; −50% damage to non-structures. **CD 6s.**"
+    },
+    {
+      "name": "Trebuchet Elder Gorm — *\"Cataclysm\"* (T5)",
+      "stats": "HP 1,200 | ATK 150 | DEF 22 | MR 15 | Range 9 | Move 0.7 | ASPD 0.3",
+      "identity": "Global-range structure threat — the ultimate siege carry.",
+      "ability": "- **Ability — Cataclysm:** After a **2.5s channel**, deals **300% ATK** to the target structure and 50% splash to nearby units. **CD 14s** (longest nuke CD — global-range power gated). Trigger: `A`/`D` = structure in range AND no enemy CC ready (channel safety, `08` §1.3).",
+      "passive": "- **Passive — Ancient Siege (refresh):** +200% damage to structures. **CD 6s.**"
+    },
+    {
+      "name": "Breacher Krag — *\"Melt Wall\"* (T2)",
+      "stats": "HP 750 | ATK 75 | DEF 14 | MR 20 | Range 3 | Move 1.0 | ASPD 0.5",
+      "identity": "Structure DoT melter — slow but unstoppable burn.",
+      "ability": "- **Ability — Acid Spray:** Cone AoE: structures take **12% max HP damage over 3s**; units take 80% ATK. **CD 8s.** Trigger: `A`/`D` = structure in range.",
+      "passive": "- **Passive — Acidic (refresh):** Basic attacks vs structures apply Melt (2% max HP structure damage/sec, stacks 5×). **CD 5s.**"
+    },
+    {
+      "name": "Ballista Vul — *\"Bolt Volley\"* (T1)",
+      "stats": "HP 600 | ATK 70 | DEF 12 | MR 8 | Range 6 | Move 1.0 | ASPD 0.5",
+      "identity": "Cheap armor-piercing bolt thrower.",
+      "ability": "- **Ability — Bolt Volley:** Fires 4 bolts over 2s (45% ATK each, ignoring armor). **CD 7s.** Trigger: `A`/`D` = structure or tank in range; `J` = camp.",
+      "passive": "- **Passive — Armor-Piercing (refresh):** Ignores 40% of armor on structures and units. **CD 4s.**"
+    },
+    {
+      "name": "Blastengine Rik — *\"Rocket Barrage\"* (T4)",
+      "stats": "HP 1,000 | ATK 125 | DEF 18 | MR 12 | Range 6 | Move 0.9 | ASPD 0.4",
+      "identity": "Overheating rocket launcher — massive burst windows followed by shutdown.",
+      "ability": "- **Ability — Rocket Barrage:** Fires 4 rockets at a structure area (100% ATK each, 1-hex AoE splash on units). **CD 9s.** Trigger: `A`/`D` = structure in range.",
+      "passive": "- **Passive — Overheat (refresh):** After 3 rapid casts, 1.5s overheat (+50% damage during). **CD 5s.**"
+    },
+    {
+      "name": "Colossus Obr — *\"Mega Slam\"* (T5)",
+      "stats": "HP 1,600 | ATK 135 | DEF 30 | MR 20 | Range 1 | Move 0.8 | ASPD 0.4",
+      "identity": "Siege-tank hybrid — the most durable siege unit, still a slow paper tiger to focus fire.",
+      "ability": "- **Ability — Mega Slam:** Deals **300% ATK** to the target structure + stuns nearby units 1.5s (80% ATK AoE). **CD 11s.** Trigger: `A` = structure in melee; `D` = structure adjacent.",
+      "passive": "- **Passive — Juggernaut (refresh):** +25% damage reduction vs non-siege damage. **CD 6s.**"
+    }
+  ],
+  "Artisans": [
+    {
+      "name": "Guild Foreman — *\"Site Runner\"* (T2)",
+      "stats": "HP 500 | ATK 42 | DEF 18 | MR 20 | Range 1 | Move 2.0 | ASPD 0.6",
+      "identity": "Construction tempo — facilities come online faster.",
+      "ability": "- **Ability — Rush Order:** Instantly completes the remaining construction of one friendly facility within 3 hexes. **CD 90s.** Trigger: `D`/`G` = facility under construction in range; `A` = forward facility site in range; `J`/`R` = OFF.",
+      "passive": "- **Passive — Cranes & Scaffold (alive-gated):** While within 3 hexes of a friendly facility being built/upgraded, its **build/upgrade time is −40%** (cap 40%)."
+    },
+    {
+      "name": "Architect Venn — *\"Blueprints\"* (T3)",
+      "stats": "HP 650 | ATK 45 | DEF 20 | MR 22 | Range 2 | Move 1.9 | ASPD 0.6",
+      "identity": "Construction cost savings + building durability.",
+      "ability": "- **Ability — Reinforced Spec:** The next facility built/upgraded within 4 hexes gains **+20% max HP** and retains **20% more current HP on damage**. **CD 30s** per building. Trigger: `D` = facility being built/upgraded in range; `A` = forward fortification point; else OFF.",
+      "passive": "- **Passive — Cost Estimation (alive-gated):** Friendly facility build/upgrade **gold cost −25%** (total discount cap 40% with Foreman)."
+    },
+    {
+      "name": "Stonewright Marble — *\"Wall Mender\"* (T3)",
+      "stats": "HP 700 | ATK 40 | DEF 28 | MR 25 | Range 1 | Move 1.8 | ASPD 0.5",
+      "identity": "Structure repair — the only unit that actively heals walls and the Core.",
+      "ability": "- **Ability — Emergency Scaffold:** Grants a wall segment or facility within 3 hexes a **+600 HP temporary barrier for 15s**. **CD 25s.** Trigger: `D` = friendly segment <80% HP in range; `A` = forward segment <50%; `R` = <85% during retreat; `J` = OFF.",
+      "passive": "- **Passive — Masonry (alive-gated):** Repairs friendly walls/facilities/Core at **3× the standard structure regen rate** (2 → 6 HP/s per segment she works); AI auto-prioritizes the most damaged segment within 3 hexes."
+    },
+    {
+      "name": "Quartermaster Sable — *\"Rationeering\"* (T3)",
+      "stats": "HP 620 | ATK 38 | DEF 15 | MR 18 | Range 1 | Move 2.0 | ASPD 0.6",
+      "identity": "Item production — cheaper, faster equipment for the whole army.",
+      "ability": "- **Ability — Emergency Craft:** Instantly crafts one consumable into **any friendly unit's empty item slot** (skips the craft channel). **CD 45s.** Trigger: `D` = slot empty + gold available; `A` = forward platoon with empty slot; `J`/`R` = OFF.",
+      "passive": "- **Passive — Supply Lines (alive-gated):** **Any unit of any class** crafting an item has **craft time −50%, gold cost −30%** (Shared Bench — army-wide aura, not personal; caps with Quick Crafting trait: 50% time / 45% gold)."
+    },
+    {
+      "name": "Master Enchanter Odette — *\"Gilding Touch\"* (T4)",
+      "stats": "HP 750 | ATK 46 | DEF 18 | MR 30 | Range 2 | Move 1.9 | ASPD 0.6",
+      "identity": "Item power — enhanced equipment for the whole army.",
+      "ability": "- **Ability — Enchant Relic:** Permanently upgrades one equipped consumable: Healing Flask 150→225 HP · Speed Elixir +30%→+45% move · Damage Tonic +20%→+30% ATK DPS · Siege Bomb 300→400 structure damage. One enchant per item. **CD 30s.** Trigger: `D` = equipped item eligible on any army unit; `A` = forward carry with eligible item; else OFF.",
+      "passive": "- **Passive — Gilded Items (alive-gated):** **While Odette is alive, every item the army crafts has +50% effect/stat** (Shared Bench — applies to all 8 classes' crafts, not just hers)."
+    },
+    {
+      "name": "Civil Engineer Markus — *\"Roadbuilder\"* (T4)",
+      "stats": "HP 780 | ATK 44 | DEF 22 | MR 24 | Range 2 | Move 2.1 | ASPD 0.6",
+      "identity": "Map control — a movement-speed road network.",
+      "ability": "- **Ability — Highway Line:** Instantly lays a straight **3-hex Road** toward the target waypoint (90 gold). **CD 30s.** Trigger: `G`/`A` = waypoint/battlefront beyond 3 hexes and 90g available; `D` = rear logistics line; `J` = road into farm; `R` = OFF.",
+      "passive": "- **Passive — Paved Paths (alive-gated):** Can construct **Road hexes**: **30 gold + 2s** per hex. Friendly units on a Road gain **+40% move speed**. Roads have **200 HP** each and are destroyed by enemy attacks; no hard cap (gold-limited)."
+    },
+    {
+      "name": "Lumberjack Bodhi — *\"Timberline\"* (T2)",
+      "stats": "HP 560 | ATK 55 | DEF 24 | MR 16 | Range 1 | Move 2.0 | ASPD 0.7",
+      "identity": "Terrain engineering — turn jungle trees into permanent obstacles.",
+      "ability": "- **Ability — Barricade:** Spends 1 charge to build a **300 HP barricade** that **blocks movement** on its hex (impassable to all units until destroyed). Build 2s. **Max 8 barricades per side.** Trigger: `G` = commander waypoint / flank approach; `A` = advance and wall a flank; `D` = seal a breach; `J` = harvest first, build after.",
+      "passive": "- **Passive — Timber Harvest (alive-gated):** Under `J`, auto-fells jungle trees (2s each). Each felled tree grants **1 Barricade charge** (max 4 held)."
+    },
+    {
+      "name": "Trapsmith Vern — *\"Emplacement\"* (T2)",
+      "stats": "HP 540 | ATK 40 | DEF 16 | MR 18 | Range 2 | Move 1.9 | ASPD 0.5",
+      "identity": "Static area denial — emplacements that force pathing decisions.",
+      "ability": "- **Ability — Snap Trap:** Constructs a 1-hex **Snare trap** (40 gold): the first enemy stepping on it is **rooted 1.5s**. **Max 4 per side**, 20s CD per trap. Trigger: `D` = chokepoint in range; `G` = waypoint; `A` = forward approach; `J` = OFF.",
+      "passive": "- **Passive — Emplacements (alive-gated):** Can construct **Caltrop zones** (30 gold, 2s): a 3×3 hex area that slows enemies **30% for 2s** after entering (no stacking). **Max 6 zones per side.**"
+    },
+    {
+      "name": "Goldsmith Aurelia — *\"Mint\"* (T2)",
+      "stats": "HP 500 | ATK 36 | DEF 14 | MR 20 | Range 1 | Move 2.0 | ASPD 0.5",
+      "identity": "Pure economy — the only unit that directly prints gold.",
+      "ability": "- **Ability — Tax Tithe:** Collects **12 gold + 2 gold per standing friendly facility (max 5 → 22 gold)**. **CD 90s** (~11 casts ≈ 165g/match). Trigger: always HIGH under `D`/`G` (gold is never wasted); `A` = OFF (she stays home); `R` = REACTIVE.",
+      "passive": "- **Passive — Ledger (alive-gated):** **+0.2 gold/sec** passive income (~216g per 18-min match). Stacks with other economy artisans to a hard **+0.6g/s total**."
+    },
+    {
+      "name": "Salvager Rook — *\"Scrapwright\"* (T1)",
+      "stats": "HP 460 | ATK 34 | DEF 20 | MR 22 | Range 1 | Move 1.9 | ASPD 0.5",
+      "identity": "Comeback economy — profits from losses.",
+      "ability": "- **Ability — Secondhand Deal:** Reduces the next unit recruitment cost by **20%** (single use). **CD 60s.** Trigger: `D`/`G` = HIGH (always beneficial); `A` = OFF; `R` = REACTIVE.",
+      "passive": "- **Passive — Salvage (alive-gated):** Destroyed friendly facilities/walls refund **75%** of build cost instead of the standard **50%**."
+    }
+  ],
+  "Assassins": [
+    {
+      "name": "Jungle Stalker — *\"Pounce\"* (T1 · 750g)",
+      "stats": "HP 560 | ATK 50 | DEF 14 | MR 14 | Range 1 | Move 2.7 | ASPD 1.0",
+      "identity": "the first scout/farmer you can field — cheap, jungle-native, and fast enough to keep early intel flowing.",
+      "ability": "",
+      "passive": "- **Passive — Stalker's Trail:** +10% move speed in jungle hexes and +10% damage vs monsters (stacks with Slayer's Mark → T1 solo ≈ **19–20s/monster**)."
+    },
+    {
+      "name": "Cutter — *\"Rend\"* (T2 · 950g)",
+      "stats": "HP 680 | ATK 72 | DEF 16 | MR 16 | Range 1 | Move 2.7 | ASPD 1.0",
+      "identity": "the armor-shred assassin — makes your whole front line's physical damage hit harder.",
+      "ability": "",
+      "passive": "- **Passive — Deep Cuts:** attacks refresh the shred; shred value **doubles** against marked monsters."
+    },
+    {
+      "name": "Viper — *\"Venom Lash\"* (T2 · 950g)",
+      "stats": "HP 680 | ATK 72 | DEF 16 | MR 16 | Range 1 | Move 2.6 | ASPD 1.1",
+      "identity": "the poison assassin — burst on the hit, then bleed them out.",
+      "ability": "",
+      "passive": "- **Passive — Adder's Swiftness:** +15% ASPD while attacking a marked monster."
+    },
+    {
+      "name": "Nightblade — *\"Shadow Blink\"* (T3 · 1150g)",
+      "stats": "HP 800 | ATK 90 | DEF 18 | MR 18 | Range 1 | Move 2.6 | ASPD 1.1",
+      "identity": "the backline diver — the reason mages and supports fear the jungle line.",
+      "ability": "",
+      "passive": "- **Passive — Executioner:** +20% damage vs targets **below 35% HP**."
+    },
+    {
+      "name": "Ghost Dagger — *\"Spectral Slash\"* (T3 · 1150g)",
+      "stats": "HP 800 | ATK 90 | DEF 18 | MR 18 | Range 1 | Move 2.6 | ASPD 1.1",
+      "identity": "the true-damage assassin — nothing mitigates its burst.",
+      "ability": "",
+      "passive": "- **Passive — Phased:** the first basic attack against the carrier in each fight **misses**."
+    },
+    {
+      "name": "Scoutmaster Silas — *\"Shadow Cipher\"* (T3 · 1150g)",
+      "stats": "HP 800 | ATK 90 | DEF 18 | MR 18 | Range 1 | Move 2.7 | ASPD 1.0",
+      "identity": "the intel specialist — the one scout you send when failure isn't an option.",
+      "ability": "",
+      "passive": "- **Passive — Shadow Cipher (scout protocol, see `TextPlan/05 - Command Cards/00 - Card System (Rules + All 25 Cards).md` §CARD POOL: INTELLIGENCE & SCOUTING):** Silas's scout missions are **100% survival — zero death risk** (his class's 2%-per-unit risk becomes 0). On a successful scout he returns **one extra accurate piece of intel** about an enemy facility — the *exact* name, tier, and remaining HP of one facility, on top of the normal fuzzy scouting results. **Trade-off (enforced):** while Silas is the scout that turn, he is **not fielded as a farming unit** — the board slot he occupies contributes zero jungle-farm value, and the 10s scout window pulls him off the board entirely. Intel is his farm."
+    },
+    {
+      "name": "Umbral Knife — *\"Lacerate\"* (T3 · 1150g)",
+      "stats": "HP 800 | ATK 90 | DEF 18 | MR 18 | Range 1 | Move 2.7 | ASPD 1.1",
+      "identity": "the multi-strike crit assassin — burst that rolls high or rolls over.",
+      "ability": "",
+      "passive": "- **Passive — Precision Edge:** basic attacks have a **25% crit chance for 200% damage**; +25% crit chance vs marked monsters."
+    },
+    {
+      "name": "Penumbra — *\"Duskfall\"* (T4 · 1350g)",
+      "stats": "HP 1000 | ATK 108 | DEF 22 | MR 22 | Range 1 | Move 2.6 | ASPD 1.1",
+      "identity": "the ambush assassin — first contact is always from a direction you didn't see.",
+      "ability": "",
+      "passive": "- **Passive — Shroud:** while **in jungle hexes or before first combat contact**, Penumbra is **untargetable by enemy basic attacks** — the first attack of a fight always comes from stealth."
+    },
+    {
+      "name": "Doomblade Shade — *\"Death Sentence\"* (T4 · 1350g)",
+      "stats": "HP 1000 | ATK 108 | DEF 22 | MR 22 | Range 1 | Move 2.6 | ASPD 1.0",
+      "identity": "the execute assassin — he doesn't out-damage you, he out-deads you.",
+      "ability": "",
+      "passive": "- **Passive — Grim Tally:** each kill grants **+4% ATK permanently** (stacks to +20%)."
+    },
+    {
+      "name": "Apex Predator — *\"Alpha Strike\"* (T5 · 1600g)",
+      "stats": "HP 1200 | ATK 126 | DEF 26 | MR 26 | Range 1 | Move 2.6 | ASPD 1.2",
+      "identity": "the jungle's apex killer — the solo elite-hunter that makes the 15s standard look slow.",
+      "ability": "",
+      "passive": "- **Passive — Terror of the Wilds:** +30% damage and +15% lifesteal vs monsters with **over 1,000 max HP** — which is **every jungle monster** (HP is flat at 1,450 across all 18 camps, `Data/Monster/00 - Jungle Monsters & Material Drops.md` §2), so the bonus covers Common, Rare, and Elite lairs alike."
+    }
+  ]
+}
